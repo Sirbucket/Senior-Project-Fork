@@ -33,9 +33,9 @@
 </html>
 
 <style>
-html {
-    width: 120px;
-    height: 230px;
-    background-color: red;
-}
+    html {
+        width: 120px;
+        height: 230px;
+        background-color: red;
+    }
 </style>
