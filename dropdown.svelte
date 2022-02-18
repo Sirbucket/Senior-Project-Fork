@@ -17,6 +17,7 @@ html {
     width: 40px;
     height: 40px;
 }
+
 .container {
   display: inline-block;
   cursor: pointer;
