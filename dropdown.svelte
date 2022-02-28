@@ -1,30 +1,89 @@
 <script>
-    function myFunction(x) {
+    function menuChange(x) {
         x.classList.toggle('change')
+        x.closest(html).classList.toggle('opened')
+    }
+
+    function menuOpen(x) {
+        x.classList.toggle('hidden')
     }
 </script>
 
 <html lang=en>
-    <div class="container" onclick="myFunction(this)">
+  <div class="dropdown" on:click={menuChange(this)}>
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
-    </div>
+  </div>
+  <div class="search">
+      <input type="search" maxlength="14" autocomplete="off" placeholder="Search..." disabled>
+  </div>
+  <div class="home">
+      <p>Home</p>
+  </div>
+  <div class="menu hidden" on:click={menuOpen(this)}>
+      <p>Menu</p>
+      <div class="food">
+          <p>Food</p>
+      </div>
+      <div class="drink">
+          <p>Drinks</p>
+      </div>
+  </div>
+  <div class="events">
+      <p>Events</p>
+  </div>
+  <div class="hiring">
+      <p>Hiring</p>
+  </div>
+  <div class="faq">
+      <p>FAQ</p>
+  </div>
 </html>
 
 <style>
 html {
-    width: 40px;
-    height: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    overflow: hidden;
+    transition: .5s;
 }
 
-.container {
+.opened {
+    height: auto;
+}
+
+.hidden div {
+    height: 0px;
+    border: 0px;
+    overflow: hidden;
+}
+
+div {
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown {
+  height: 30px;
+  width: 30px;
   display: inline-block;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .bar1, .bar2, .bar3 {
-  width: 35px;
+  width: 25px;
   height: 5px;
   background-color: #333;
   margin: 6px 0;
