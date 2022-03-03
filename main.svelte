@@ -4,7 +4,8 @@
 </script>
 
 <html lang=en>
-    
+    <Header/>
+    <Homepage/>
 </html>
 
 <style>
