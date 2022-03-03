@@ -1,5 +1,5 @@
 <script>
-    function menuChange(x) {
+    function navChange(x) {
         x.classList.toggle('change')
         x.closest(html).classList.toggle('opened')
     }
@@ -10,7 +10,7 @@
 </script>
 
 <html lang=en>
-  <div class="dropdown" on:click={menuChange(this)}>
+  <div class="dropdown" on:click={navChange(this)}>
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
