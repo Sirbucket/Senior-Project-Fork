@@ -1,7 +1,7 @@
 <script>
     function navChange(x) {
         x.classList.toggle('change')
-        x.closest(html).classList.toggle('opened')
+        x.closest(body).classList.toggle('opened')
     }
 
     function menuOpen(x) {
@@ -9,7 +9,7 @@
     }
 </script>
 
-<html lang=en>
+<body lang=en class="body">
   <div class="dropdown" on:click={navChange(this)}>
       <div class="bar1"></div>
       <div class="bar2"></div>
@@ -39,7 +39,7 @@
   <div class="faq">
       <p>FAQ</p>
   </div>
-</html>
+</body>
 
 <style>
 html {
