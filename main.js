@@ -1,4 +1,4 @@
-import App from 'main.svlete'
+import App from 'main.svelte'
 
 const app = new App({
   target: document.getElementById('app')

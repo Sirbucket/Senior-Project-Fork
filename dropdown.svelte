@@ -1,7 +1,7 @@
-<script>
+<script lang="js">
     function navChange(x) {
         x.classList.toggle('change')
-        x.closest(body).classList.toggle('opened')
+        x.closest(html).classList.toggle('opened')
     }
 
     function menuOpen(x) {
@@ -9,7 +9,7 @@
     }
 </script>
 
-<body lang=en class="body">
+<html lang=en class="body">
   <div class="dropdown" on:click={navChange(this)}>
       <div class="bar1"></div>
       <div class="bar2"></div>
@@ -39,10 +39,10 @@
   <div class="faq">
       <p>FAQ</p>
   </div>
-</body>
+</html>
 
 <style>
-html {
+body {
     height: 30px;
     display: flex;
     flex-direction: column;
