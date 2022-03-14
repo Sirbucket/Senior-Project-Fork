@@ -15,7 +15,7 @@
       <p>Website Appearance</p>
     </div>
     <div id="classy" class="flexy">
-      <button class="classyB" on:click={styleChange(this)}></button>
+      <button class="classyB" on:click={styleChange}></button>
       <p>Classy</p>
     </div>
     <div id="cozy" class="flexy">
