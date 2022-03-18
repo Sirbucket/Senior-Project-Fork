@@ -1,51 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Trykker&display=swap');
 
 :root {
-  font-family: 'Trykker', serif;
-  --font: 'Trykker', serif;
-  --baseBack : white;
-  --baseColor : black;
-  --accentBack : black;
-  --accentColor : white;
-  --buttonsBack : #666666;
-  --buttonsColor : #efefef;
+  margin: 0px;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
+  background-color: white;
 }
 
 body {
   margin: 0px;
   height: 100vh;
   width: 100vw;
-}
-
-.classy {
-  background-color: black;
-}
-
-.classy .base {
-  background-color: white;
-  color: black;
-}
-
-.classy .accent {
-  background-color: black;
-  color: white;
-}
-
-.classy .buttons {
-  background-color: #666666;
-  color: #efefef;
-  border-color: #efefef;
-}
-
-.classy .header .header div:nth-child(even) {
-  background-color: #666666;
-}
-
-.classy .header .header div:nth-child(odd) {
-  background-color: white;
 }

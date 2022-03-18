@@ -3,11 +3,15 @@
     import Homepage from './homepage.svelte'
 </script>
 
-<html lang=en>
+<section lang=en>
     <Header/>
     <Homepage/>
-</html>
+</section>
 
 <style>
-
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
 </style>

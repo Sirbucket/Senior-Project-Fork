@@ -1,7 +1,7 @@
 <script lang="js">
     function navChange(x) {
         x.classList.toggle('change')
-        x.closest(html).classList.toggle('opened')
+        x.closest('section').classList.toggle('opened')
     }
 
     function menuOpen(x) {
@@ -9,19 +9,19 @@
     }
 </script>
 
-<html lang=en class="body">
-  <div class="dropdown" on:click={navChange(this)}>
+<section lang=en id="body1">
+  <div class="dropdown" on:click={navChange}>
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
   </div>
-  <div class="search">
+  <div class="search hidden">
       <input type="search" maxlength="14" autocomplete="off" placeholder="Search..." disabled>
   </div>
-  <div class="home">
+  <div class="home hidden">
       <p>Home</p>
   </div>
-  <div class="menu hidden" on:click={menuOpen(this)}>
+  <div class="menu hidden" on:click={menuOpen}>
       <p>Menu</p>
       <div class="food">
           <p>Food</p>
@@ -30,19 +30,19 @@
           <p>Drinks</p>
       </div>
   </div>
-  <div class="events">
+  <div class="events hidden">
       <p>Events</p>
   </div>
-  <div class="hiring">
+  <div class="hiring hidden">
       <p>Hiring</p>
   </div>
-  <div class="faq">
+  <div class="faq hidden">
       <p>FAQ</p>
   </div>
-</html>
+</section>
 
 <style>
-body {
+section {
     height: 30px;
     display: flex;
     flex-direction: column;
@@ -55,9 +55,8 @@ body {
     height: auto;
 }
 
-.hidden div {
-    height: 0px;
-    border: 0px;
+.hidden {
+    display: none;
     overflow: hidden;
 }
 
