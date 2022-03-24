@@ -1,5 +1,6 @@
 <script lang="js">
-    function navChange(x) {
+    function navChange(event) {
+        let x = event.target
         x.classList.toggle('change')
         x.closest('section').classList.toggle('opened')
     }
@@ -9,7 +10,7 @@
     }
 </script>
 
-<section lang=en id="body1">
+<section lang=en>
   <div class="dropdown" on:click={navChange}>
       <div class="bar1"></div>
       <div class="bar2"></div>
@@ -21,7 +22,7 @@
   <div class="home hidden">
       <p>Home</p>
   </div>
-  <div class="menu hidden" on:click={menuOpen}>
+  <div class="menu hidden closed" on:click={menuOpen}>
       <p>Menu</p>
       <div class="food">
           <p>Food</p>
@@ -43,7 +44,6 @@
 
 <style>
 section {
-    height: 30px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -51,8 +51,8 @@ section {
     transition: .5s;
 }
 
-.opened {
-    height: auto;
+section.opened {
+    height: 90vh;
 }
 
 .hidden {
@@ -60,10 +60,16 @@ section {
     overflow: hidden;
 }
 
+.opened .hidden {
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}
+
 div {
     height: 15px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 p {
@@ -71,28 +77,33 @@ p {
     margin: 0px;
 }
 
+.faq {
+    margin-bottom: auto;
+}
+
 .dropdown {
   height: 30px;
   width: 30px;
+  padding: 0px;
+  border: 0px;
   display: inline-block;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .bar1, .bar2, .bar3 {
   width: 25px;
-  height: 5px;
+  height: 3px;
   background-color: #333;
-  margin: 6px 0;
   transition: 0.4s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 /* Fade out the second bar */
@@ -102,7 +113,6 @@ p {
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 </style>

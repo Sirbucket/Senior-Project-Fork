@@ -19,12 +19,13 @@
         justify-content: space-between;
         align-items: start;
         background-color: red;
-        height: 200px;
+        height: 175px;
     }
     .text {
         align-self: center;
     }
     h1 {
         border-bottom: 2px solid black;
+        font-size: 200%;
     }
 </style>

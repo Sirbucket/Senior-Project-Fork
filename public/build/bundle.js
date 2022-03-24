@@ -388,7 +388,7 @@ var app = (function () {
     const file$4 = "src\\colors.svelte";
 
     function create_fragment$4(ctx) {
-    	let html;
+    	let section;
     	let div0;
     	let p0;
     	let t1;
@@ -416,12 +416,17 @@ var app = (function () {
     	let button4;
     	let t14;
     	let p5;
+    	let t16;
+    	let div8;
+    	let div6;
+    	let t17;
+    	let div7;
     	let mounted;
     	let dispose;
 
     	const block = {
     		c: function create() {
-    			html = element("html");
+    			section = element("section");
     			div0 = element("div");
     			p0 = element("p");
     			p0.textContent = "Website Appearance";
@@ -455,75 +460,96 @@ var app = (function () {
     			t14 = space();
     			p5 = element("p");
     			p5.textContent = "Celestial";
-    			add_location(p0, file$4, 14, 6, 309);
-    			attr_dev(div0, "class", "title");
-    			add_location(div0, file$4, 13, 4, 282);
-    			attr_dev(button0, "class", "classyB");
-    			add_location(button0, file$4, 17, 6, 391);
-    			add_location(p1, file$4, 18, 6, 455);
+    			t16 = space();
+    			div8 = element("div");
+    			div6 = element("div");
+    			t17 = space();
+    			div7 = element("div");
+    			attr_dev(p0, "class", "svelte-1cdxecq");
+    			add_location(p0, file$4, 14, 6, 304);
+    			attr_dev(div0, "class", "title svelte-1cdxecq");
+    			add_location(div0, file$4, 13, 4, 277);
+    			attr_dev(button0, "class", "classyB svelte-1cdxecq");
+    			add_location(button0, file$4, 17, 6, 386);
+    			attr_dev(p1, "class", "svelte-1cdxecq");
+    			add_location(p1, file$4, 18, 6, 450);
     			attr_dev(div1, "id", "classy");
-    			attr_dev(div1, "class", "flexy");
-    			add_location(div1, file$4, 16, 4, 352);
-    			attr_dev(button1, "class", "cozyB");
-    			add_location(button1, file$4, 21, 6, 523);
-    			add_location(p2, file$4, 22, 6, 585);
+    			attr_dev(div1, "class", "flexy svelte-1cdxecq");
+    			add_location(div1, file$4, 16, 4, 347);
+    			attr_dev(button1, "class", "cozyB svelte-1cdxecq");
+    			add_location(button1, file$4, 21, 6, 518);
+    			attr_dev(p2, "class", "svelte-1cdxecq");
+    			add_location(p2, file$4, 22, 6, 580);
     			attr_dev(div2, "id", "cozy");
-    			attr_dev(div2, "class", "flexy");
-    			add_location(div2, file$4, 20, 4, 486);
-    			attr_dev(button2, "class", "coolB");
-    			add_location(button2, file$4, 25, 6, 651);
-    			add_location(p3, file$4, 26, 6, 713);
+    			attr_dev(div2, "class", "flexy svelte-1cdxecq");
+    			add_location(div2, file$4, 20, 4, 481);
+    			attr_dev(button2, "class", "coolB svelte-1cdxecq");
+    			add_location(button2, file$4, 25, 6, 646);
+    			attr_dev(p3, "class", "svelte-1cdxecq");
+    			add_location(p3, file$4, 26, 6, 708);
     			attr_dev(div3, "id", "cool");
-    			attr_dev(div3, "class", "flexy");
-    			add_location(div3, file$4, 24, 4, 614);
-    			attr_dev(button3, "class", "carefreeB");
-    			add_location(button3, file$4, 29, 6, 783);
-    			add_location(p4, file$4, 30, 6, 849);
+    			attr_dev(div3, "class", "flexy svelte-1cdxecq");
+    			add_location(div3, file$4, 24, 4, 609);
+    			attr_dev(button3, "class", "carefreeB svelte-1cdxecq");
+    			add_location(button3, file$4, 29, 6, 778);
+    			attr_dev(p4, "class", "svelte-1cdxecq");
+    			add_location(p4, file$4, 30, 6, 844);
     			attr_dev(div4, "id", "carefree");
-    			attr_dev(div4, "class", "flexy");
-    			add_location(div4, file$4, 28, 4, 742);
-    			attr_dev(button4, "class", "celestialB");
-    			add_location(button4, file$4, 33, 6, 924);
-    			add_location(p5, file$4, 34, 6, 991);
+    			attr_dev(div4, "class", "flexy svelte-1cdxecq");
+    			add_location(div4, file$4, 28, 4, 737);
+    			attr_dev(button4, "class", "celestialB svelte-1cdxecq");
+    			add_location(button4, file$4, 33, 6, 919);
+    			attr_dev(p5, "class", "svelte-1cdxecq");
+    			add_location(p5, file$4, 34, 6, 986);
     			attr_dev(div5, "id", "celestial");
-    			attr_dev(div5, "class", "flexy");
-    			add_location(div5, file$4, 32, 4, 882);
-    			attr_dev(html, "lang", "en");
-    			attr_dev(html, "class", "svelte-n5n0dn");
-    			add_location(html, file$4, 12, 0, 262);
+    			attr_dev(div5, "class", "flexy svelte-1cdxecq");
+    			add_location(div5, file$4, 32, 4, 877);
+    			attr_dev(div6, "class", "left svelte-1cdxecq");
+    			add_location(div6, file$4, 37, 6, 1046);
+    			attr_dev(div7, "class", "right svelte-1cdxecq");
+    			add_location(div7, file$4, 38, 6, 1078);
+    			attr_dev(div8, "class", "tail svelte-1cdxecq");
+    			add_location(div8, file$4, 36, 4, 1020);
+    			attr_dev(section, "class", "svelte-1cdxecq");
+    			add_location(section, file$4, 12, 0, 262);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, html, anchor);
-    			append_dev(html, div0);
+    			insert_dev(target, section, anchor);
+    			append_dev(section, div0);
     			append_dev(div0, p0);
-    			append_dev(html, t1);
-    			append_dev(html, div1);
+    			append_dev(section, t1);
+    			append_dev(section, div1);
     			append_dev(div1, button0);
     			append_dev(div1, t2);
     			append_dev(div1, p1);
-    			append_dev(html, t4);
-    			append_dev(html, div2);
+    			append_dev(section, t4);
+    			append_dev(section, div2);
     			append_dev(div2, button1);
     			append_dev(div2, t5);
     			append_dev(div2, p2);
-    			append_dev(html, t7);
-    			append_dev(html, div3);
+    			append_dev(section, t7);
+    			append_dev(section, div3);
     			append_dev(div3, button2);
     			append_dev(div3, t8);
     			append_dev(div3, p3);
-    			append_dev(html, t10);
-    			append_dev(html, div4);
+    			append_dev(section, t10);
+    			append_dev(section, div4);
     			append_dev(div4, button3);
     			append_dev(div4, t11);
     			append_dev(div4, p4);
-    			append_dev(html, t13);
-    			append_dev(html, div5);
+    			append_dev(section, t13);
+    			append_dev(section, div5);
     			append_dev(div5, button4);
     			append_dev(div5, t14);
     			append_dev(div5, p5);
+    			append_dev(section, t16);
+    			append_dev(section, div8);
+    			append_dev(div8, div6);
+    			append_dev(div8, t17);
+    			append_dev(div8, div7);
 
     			if (!mounted) {
     				dispose = [
@@ -541,7 +567,7 @@ var app = (function () {
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(html);
+    			if (detaching) detach_dev(section);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -676,54 +702,53 @@ var app = (function () {
     			div11 = element("div");
     			p6 = element("p");
     			p6.textContent = "FAQ";
-    			attr_dev(div0, "class", "bar1 svelte-pes37n");
-    			add_location(div0, file$3, 13, 6, 322);
-    			attr_dev(div1, "class", "bar2 svelte-pes37n");
-    			add_location(div1, file$3, 14, 6, 354);
-    			attr_dev(div2, "class", "bar3 svelte-pes37n");
-    			add_location(div2, file$3, 15, 6, 386);
-    			attr_dev(div3, "class", "dropdown svelte-pes37n");
-    			add_location(div3, file$3, 12, 2, 271);
+    			attr_dev(div0, "class", "bar1 svelte-1yv9akw");
+    			add_location(div0, file$3, 14, 6, 345);
+    			attr_dev(div1, "class", "bar2 svelte-1yv9akw");
+    			add_location(div1, file$3, 15, 6, 377);
+    			attr_dev(div2, "class", "bar3 svelte-1yv9akw");
+    			add_location(div2, file$3, 16, 6, 409);
+    			attr_dev(div3, "class", "dropdown svelte-1yv9akw");
+    			add_location(div3, file$3, 13, 2, 294);
     			attr_dev(input, "type", "search");
     			attr_dev(input, "maxlength", "14");
     			attr_dev(input, "autocomplete", "off");
     			attr_dev(input, "placeholder", "Search...");
     			input.disabled = true;
-    			add_location(input, file$3, 18, 6, 459);
-    			attr_dev(div4, "class", "search hidden svelte-pes37n");
-    			add_location(div4, file$3, 17, 2, 424);
-    			attr_dev(p0, "class", "svelte-pes37n");
-    			add_location(p0, file$3, 21, 6, 594);
-    			attr_dev(div5, "class", "home hidden svelte-pes37n");
-    			add_location(div5, file$3, 20, 2, 561);
-    			attr_dev(p1, "class", "svelte-pes37n");
-    			add_location(p1, file$3, 24, 6, 672);
-    			attr_dev(p2, "class", "svelte-pes37n");
-    			add_location(p2, file$3, 26, 10, 721);
-    			attr_dev(div6, "class", "food svelte-pes37n");
-    			add_location(div6, file$3, 25, 6, 691);
-    			attr_dev(p3, "class", "svelte-pes37n");
-    			add_location(p3, file$3, 29, 10, 785);
-    			attr_dev(div7, "class", "drink svelte-pes37n");
-    			add_location(div7, file$3, 28, 6, 754);
-    			attr_dev(div8, "class", "menu hidden svelte-pes37n");
-    			add_location(div8, file$3, 23, 2, 619);
-    			attr_dev(p4, "class", "svelte-pes37n");
-    			add_location(p4, file$3, 33, 6, 861);
-    			attr_dev(div9, "class", "events hidden svelte-pes37n");
-    			add_location(div9, file$3, 32, 2, 826);
-    			attr_dev(p5, "class", "svelte-pes37n");
-    			add_location(p5, file$3, 36, 6, 923);
-    			attr_dev(div10, "class", "hiring hidden svelte-pes37n");
-    			add_location(div10, file$3, 35, 2, 888);
-    			attr_dev(p6, "class", "svelte-pes37n");
-    			add_location(p6, file$3, 39, 6, 982);
-    			attr_dev(div11, "class", "faq hidden svelte-pes37n");
-    			add_location(div11, file$3, 38, 2, 950);
+    			add_location(input, file$3, 19, 6, 482);
+    			attr_dev(div4, "class", "search hidden svelte-1yv9akw");
+    			add_location(div4, file$3, 18, 2, 447);
+    			attr_dev(p0, "class", "svelte-1yv9akw");
+    			add_location(p0, file$3, 22, 6, 617);
+    			attr_dev(div5, "class", "home hidden svelte-1yv9akw");
+    			add_location(div5, file$3, 21, 2, 584);
+    			attr_dev(p1, "class", "svelte-1yv9akw");
+    			add_location(p1, file$3, 25, 6, 702);
+    			attr_dev(p2, "class", "svelte-1yv9akw");
+    			add_location(p2, file$3, 27, 10, 751);
+    			attr_dev(div6, "class", "food svelte-1yv9akw");
+    			add_location(div6, file$3, 26, 6, 721);
+    			attr_dev(p3, "class", "svelte-1yv9akw");
+    			add_location(p3, file$3, 30, 10, 815);
+    			attr_dev(div7, "class", "drink svelte-1yv9akw");
+    			add_location(div7, file$3, 29, 6, 784);
+    			attr_dev(div8, "class", "menu hidden closed svelte-1yv9akw");
+    			add_location(div8, file$3, 24, 2, 642);
+    			attr_dev(p4, "class", "svelte-1yv9akw");
+    			add_location(p4, file$3, 34, 6, 891);
+    			attr_dev(div9, "class", "events hidden svelte-1yv9akw");
+    			add_location(div9, file$3, 33, 2, 856);
+    			attr_dev(p5, "class", "svelte-1yv9akw");
+    			add_location(p5, file$3, 37, 6, 953);
+    			attr_dev(div10, "class", "hiring hidden svelte-1yv9akw");
+    			add_location(div10, file$3, 36, 2, 918);
+    			attr_dev(p6, "class", "svelte-1yv9akw");
+    			add_location(p6, file$3, 40, 6, 1012);
+    			attr_dev(div11, "class", "faq hidden svelte-1yv9akw");
+    			add_location(div11, file$3, 39, 2, 980);
     			attr_dev(section, "lang", "en");
-    			attr_dev(section, "id", "body1");
-    			attr_dev(section, "class", "svelte-pes37n");
-    			add_location(section, file$3, 11, 0, 239);
+    			attr_dev(section, "class", "svelte-1yv9akw");
+    			add_location(section, file$3, 12, 0, 273);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -791,7 +816,8 @@ var app = (function () {
     	return block;
     }
 
-    function navChange(x) {
+    function navChange(event) {
+    	let x = event.target;
     	x.classList.toggle('change');
     	x.closest('section').classList.toggle('opened');
     }
@@ -857,12 +883,12 @@ var app = (function () {
     			h3.textContent = "\"Come on in! Take a chance.\" - Katherine Stout";
     			t4 = space();
     			create_component(colors.$$.fragment);
-    			attr_dev(h1, "class", "svelte-dpzll0");
+    			attr_dev(h1, "class", "svelte-1m4np7e");
     			add_location(h1, file$2, 8, 8, 168);
     			add_location(h3, file$2, 9, 8, 216);
-    			attr_dev(div, "class", "text svelte-dpzll0");
+    			attr_dev(div, "class", "text svelte-1m4np7e");
     			add_location(div, file$2, 7, 4, 140);
-    			attr_dev(main, "class", "svelte-dpzll0");
+    			attr_dev(main, "class", "svelte-1m4np7e");
     			add_location(main, file$2, 5, 0, 111);
     		},
     		l: function claim(nodes) {

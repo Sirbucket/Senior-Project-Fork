@@ -10,7 +10,7 @@
     }
 </script>
 
-<html lang=en>
+<section>
     <div class="title">
       <p>Website Appearance</p>
     </div>
@@ -34,12 +34,60 @@
       <button class="celestialB" on:click={styleChange}></button>
       <p>Celestial</p>
     </div>
-</html>
+    <div class="tail">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </section>
 
 <style>
-    html {
-        width: 120px;
-        height: 230px;
-        background-color: red;
+    section {
+      width: 100px;
+      font-size: 75%;
+      margin-right: 5px;
     }
+    
+    div, p {
+      margin: 0px;
+      padding: 2px;
+    }
+
+    div {
+      display: flex;
+      align-items: center
+    }
+
+    button {
+      height: 17px;
+      width: 17px;
+    }
+
+    .flexy {
+      background-color: green;
+    }
+
+    .title {
+      text-align: center;
+      background-color: green;
+    }
+
+    .tail {
+      height: 50px;
+      padding: 0px;
+      display: flex;
+    }
+
+    .tail .left, .tail .right {
+      width: 50px;
+      height: 50px;
+    }
+
+    .tail .left {
+      background-image: linear-gradient(to bottom right, green 50%, #00000000 50%);
+    }
+
+    .tail .right {
+      background-image: linear-gradient(to bottom left, green 50%, #00000000 50%)
+    }
+
 </style>
