@@ -3,15 +3,28 @@
     import Homepage from './homepage.svelte'
 </script>
 
-<section lang=en>
+<section>
+    <div class="header">
     <Header/>
+    </div>
+    <div class="content">
     <Homepage/>
+    </div>
 </section>
 
 <style>
 section {
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    overflow-x: hidden;
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 </style>

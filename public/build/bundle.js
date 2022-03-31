@@ -24,6 +24,14 @@ var app = (function () {
     function safe_not_equal(a, b) {
         return a != a ? b == b : a !== b || ((a && typeof a === 'object') || typeof a === 'function');
     }
+    let src_url_equal_anchor;
+    function src_url_equal(element_src, url) {
+        if (!src_url_equal_anchor) {
+            src_url_equal_anchor = document.createElement('a');
+        }
+        src_url_equal_anchor.href = url;
+        return element_src === src_url_equal_anchor.href;
+    }
     function is_empty(obj) {
         return Object.keys(obj).length === 0;
     }
@@ -465,52 +473,52 @@ var app = (function () {
     			div6 = element("div");
     			t17 = space();
     			div7 = element("div");
-    			attr_dev(p0, "class", "svelte-1cdxecq");
+    			attr_dev(p0, "class", "svelte-zeom9u");
     			add_location(p0, file$4, 14, 6, 304);
-    			attr_dev(div0, "class", "title svelte-1cdxecq");
+    			attr_dev(div0, "class", "title svelte-zeom9u");
     			add_location(div0, file$4, 13, 4, 277);
-    			attr_dev(button0, "class", "classyB svelte-1cdxecq");
+    			attr_dev(button0, "class", "classyB svelte-zeom9u");
     			add_location(button0, file$4, 17, 6, 386);
-    			attr_dev(p1, "class", "svelte-1cdxecq");
+    			attr_dev(p1, "class", "svelte-zeom9u");
     			add_location(p1, file$4, 18, 6, 450);
     			attr_dev(div1, "id", "classy");
-    			attr_dev(div1, "class", "flexy svelte-1cdxecq");
+    			attr_dev(div1, "class", "flexy svelte-zeom9u");
     			add_location(div1, file$4, 16, 4, 347);
-    			attr_dev(button1, "class", "cozyB svelte-1cdxecq");
+    			attr_dev(button1, "class", "cozyB svelte-zeom9u");
     			add_location(button1, file$4, 21, 6, 518);
-    			attr_dev(p2, "class", "svelte-1cdxecq");
+    			attr_dev(p2, "class", "svelte-zeom9u");
     			add_location(p2, file$4, 22, 6, 580);
     			attr_dev(div2, "id", "cozy");
-    			attr_dev(div2, "class", "flexy svelte-1cdxecq");
+    			attr_dev(div2, "class", "flexy svelte-zeom9u");
     			add_location(div2, file$4, 20, 4, 481);
-    			attr_dev(button2, "class", "coolB svelte-1cdxecq");
+    			attr_dev(button2, "class", "coolB svelte-zeom9u");
     			add_location(button2, file$4, 25, 6, 646);
-    			attr_dev(p3, "class", "svelte-1cdxecq");
+    			attr_dev(p3, "class", "svelte-zeom9u");
     			add_location(p3, file$4, 26, 6, 708);
     			attr_dev(div3, "id", "cool");
-    			attr_dev(div3, "class", "flexy svelte-1cdxecq");
+    			attr_dev(div3, "class", "flexy svelte-zeom9u");
     			add_location(div3, file$4, 24, 4, 609);
-    			attr_dev(button3, "class", "carefreeB svelte-1cdxecq");
+    			attr_dev(button3, "class", "carefreeB svelte-zeom9u");
     			add_location(button3, file$4, 29, 6, 778);
-    			attr_dev(p4, "class", "svelte-1cdxecq");
+    			attr_dev(p4, "class", "svelte-zeom9u");
     			add_location(p4, file$4, 30, 6, 844);
     			attr_dev(div4, "id", "carefree");
-    			attr_dev(div4, "class", "flexy svelte-1cdxecq");
+    			attr_dev(div4, "class", "flexy svelte-zeom9u");
     			add_location(div4, file$4, 28, 4, 737);
-    			attr_dev(button4, "class", "celestialB svelte-1cdxecq");
+    			attr_dev(button4, "class", "celestialB svelte-zeom9u");
     			add_location(button4, file$4, 33, 6, 919);
-    			attr_dev(p5, "class", "svelte-1cdxecq");
+    			attr_dev(p5, "class", "svelte-zeom9u");
     			add_location(p5, file$4, 34, 6, 986);
     			attr_dev(div5, "id", "celestial");
-    			attr_dev(div5, "class", "flexy svelte-1cdxecq");
+    			attr_dev(div5, "class", "flexy svelte-zeom9u");
     			add_location(div5, file$4, 32, 4, 877);
-    			attr_dev(div6, "class", "left svelte-1cdxecq");
+    			attr_dev(div6, "class", "left svelte-zeom9u");
     			add_location(div6, file$4, 37, 6, 1046);
-    			attr_dev(div7, "class", "right svelte-1cdxecq");
+    			attr_dev(div7, "class", "right svelte-zeom9u");
     			add_location(div7, file$4, 38, 6, 1078);
-    			attr_dev(div8, "class", "tail svelte-1cdxecq");
+    			attr_dev(div8, "class", "tail svelte-zeom9u");
     			add_location(div8, file$4, 36, 4, 1020);
-    			attr_dev(section, "class", "svelte-1cdxecq");
+    			attr_dev(section, "class", "svelte-zeom9u");
     			add_location(section, file$4, 12, 0, 262);
     		},
     		l: function claim(nodes) {
@@ -883,12 +891,12 @@ var app = (function () {
     			h3.textContent = "\"Come on in! Take a chance.\" - Katherine Stout";
     			t4 = space();
     			create_component(colors.$$.fragment);
-    			attr_dev(h1, "class", "svelte-1m4np7e");
+    			attr_dev(h1, "class", "svelte-1bre63x");
     			add_location(h1, file$2, 8, 8, 168);
     			add_location(h3, file$2, 9, 8, 216);
-    			attr_dev(div, "class", "text svelte-1m4np7e");
+    			attr_dev(div, "class", "text svelte-1bre63x");
     			add_location(div, file$2, 7, 4, 140);
-    			attr_dev(main, "class", "svelte-1m4np7e");
+    			attr_dev(main, "class", "svelte-1bre63x");
     			add_location(main, file$2, 5, 0, 111);
     		},
     		l: function claim(nodes) {
@@ -968,25 +976,176 @@ var app = (function () {
     const file$1 = "src\\homepage.svelte";
 
     function create_fragment$1(ctx) {
-    	let html;
+    	let section;
+    	let div6;
+    	let div2;
+    	let div0;
+    	let h20;
+    	let t1;
+    	let p0;
+    	let t3;
+    	let img0;
+    	let t4;
+    	let div1;
+    	let h21;
+    	let t6;
+    	let p1;
+    	let t8;
+    	let img1;
+    	let t9;
+    	let div5;
+    	let img2;
+    	let img2_src_value;
+    	let t10;
+    	let div3;
+    	let h22;
+    	let t12;
+    	let p2;
+    	let t14;
+    	let img3;
+    	let t15;
+    	let div4;
+    	let h23;
+    	let t17;
+    	let p3;
+    	let t19;
+    	let div7;
+    	let h4;
 
     	const block = {
     		c: function create() {
-    			html = element("html");
-    			attr_dev(html, "lang", "en");
-    			add_location(html, file$1, 4, 0, 25);
+    			section = element("section");
+    			div6 = element("div");
+    			div2 = element("div");
+    			div0 = element("div");
+    			h20 = element("h2");
+    			h20.textContent = "About Us";
+    			t1 = space();
+    			p0 = element("p");
+    			p0.textContent = "We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.";
+    			t3 = space();
+    			img0 = element("img");
+    			t4 = space();
+    			div1 = element("div");
+    			h21 = element("h2");
+    			h21.textContent = "Allergy & Diet";
+    			t6 = space();
+    			p1 = element("p");
+    			p1.textContent = "We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.";
+    			t8 = space();
+    			img1 = element("img");
+    			t9 = space();
+    			div5 = element("div");
+    			img2 = element("img");
+    			t10 = space();
+    			div3 = element("div");
+    			h22 = element("h2");
+    			h22.textContent = "Location";
+    			t12 = space();
+    			p2 = element("p");
+    			p2.textContent = "We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.";
+    			t14 = space();
+    			img3 = element("img");
+    			t15 = space();
+    			div4 = element("div");
+    			h23 = element("h2");
+    			h23.textContent = "Charity/Profit";
+    			t17 = space();
+    			p3 = element("p");
+    			p3.textContent = "We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.";
+    			t19 = space();
+    			div7 = element("div");
+    			h4 = element("h4");
+    			h4.textContent = "Please don't sue us :)";
+    			attr_dev(h20, "class", "svelte-117xld");
+    			add_location(h20, file$1, 8, 12, 130);
+    			add_location(p0, file$1, 9, 12, 161);
+    			attr_dev(div0, "class", "about text svelte-117xld");
+    			add_location(div0, file$1, 7, 8, 92);
+    			attr_dev(img0, "class", "image2 svelte-117xld");
+    			attr_dev(img0, "alt", "cool food :)");
+    			add_location(img0, file$1, 11, 8, 392);
+    			attr_dev(h21, "class", "svelte-117xld");
+    			add_location(h21, file$1, 13, 12, 481);
+    			add_location(p1, file$1, 14, 12, 518);
+    			attr_dev(div1, "class", "allergy text svelte-117xld");
+    			add_location(div1, file$1, 12, 8, 441);
+    			attr_dev(img1, "class", "image4 svelte-117xld");
+    			attr_dev(img1, "alt", "cool food :)");
+    			add_location(img1, file$1, 16, 8, 749);
+    			attr_dev(div2, "class", "left svelte-117xld");
+    			add_location(div2, file$1, 6, 4, 64);
+    			if (!src_url_equal(img2.src, img2_src_value = "images\\logo.png")) attr_dev(img2, "src", img2_src_value);
+    			attr_dev(img2, "class", "image1 svelte-117xld");
+    			attr_dev(img2, "alt", "cool logo :)");
+    			add_location(img2, file$1, 19, 8, 835);
+    			attr_dev(h22, "class", "svelte-117xld");
+    			add_location(h22, file$1, 21, 12, 947);
+    			add_location(p2, file$1, 22, 12, 978);
+    			attr_dev(div3, "class", "location text svelte-117xld");
+    			add_location(div3, file$1, 20, 8, 906);
+    			attr_dev(img3, "class", "image3 svelte-117xld");
+    			attr_dev(img3, "alt", "cool food :)");
+    			add_location(img3, file$1, 24, 8, 1209);
+    			attr_dev(h23, "class", "svelte-117xld");
+    			add_location(h23, file$1, 26, 12, 1298);
+    			add_location(p3, file$1, 27, 12, 1335);
+    			attr_dev(div4, "class", "charity text svelte-117xld");
+    			add_location(div4, file$1, 25, 8, 1258);
+    			attr_dev(div5, "class", "right svelte-117xld");
+    			add_location(div5, file$1, 18, 4, 806);
+    			attr_dev(div6, "class", "main svelte-117xld");
+    			add_location(div6, file$1, 5, 4, 40);
+    			add_location(h4, file$1, 32, 8, 1615);
+    			attr_dev(div7, "class", "legal svelte-117xld");
+    			add_location(div7, file$1, 31, 4, 1586);
+    			attr_dev(section, "class", "svelte-117xld");
+    			add_location(section, file$1, 4, 0, 25);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, html, anchor);
+    			insert_dev(target, section, anchor);
+    			append_dev(section, div6);
+    			append_dev(div6, div2);
+    			append_dev(div2, div0);
+    			append_dev(div0, h20);
+    			append_dev(div0, t1);
+    			append_dev(div0, p0);
+    			append_dev(div2, t3);
+    			append_dev(div2, img0);
+    			append_dev(div2, t4);
+    			append_dev(div2, div1);
+    			append_dev(div1, h21);
+    			append_dev(div1, t6);
+    			append_dev(div1, p1);
+    			append_dev(div2, t8);
+    			append_dev(div2, img1);
+    			append_dev(div6, t9);
+    			append_dev(div6, div5);
+    			append_dev(div5, img2);
+    			append_dev(div5, t10);
+    			append_dev(div5, div3);
+    			append_dev(div3, h22);
+    			append_dev(div3, t12);
+    			append_dev(div3, p2);
+    			append_dev(div5, t14);
+    			append_dev(div5, img3);
+    			append_dev(div5, t15);
+    			append_dev(div5, div4);
+    			append_dev(div4, h23);
+    			append_dev(div4, t17);
+    			append_dev(div4, p3);
+    			append_dev(section, t19);
+    			append_dev(section, div7);
+    			append_dev(div7, h4);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(html);
+    			if (detaching) detach_dev(section);
     		}
     	};
 
@@ -1032,8 +1191,10 @@ var app = (function () {
 
     function create_fragment(ctx) {
     	let section;
+    	let div0;
     	let header;
     	let t;
+    	let div1;
     	let homepage;
     	let current;
     	header = new Header({ $$inline: true });
@@ -1042,11 +1203,16 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			section = element("section");
+    			div0 = element("div");
     			create_component(header.$$.fragment);
     			t = space();
+    			div1 = element("div");
     			create_component(homepage.$$.fragment);
-    			attr_dev(section, "lang", "en");
-    			attr_dev(section, "class", "svelte-obq4mk");
+    			attr_dev(div0, "class", "header svelte-n2tfl7");
+    			add_location(div0, file, 6, 4, 126);
+    			attr_dev(div1, "class", "content");
+    			add_location(div1, file, 9, 4, 179);
+    			attr_dev(section, "class", "svelte-n2tfl7");
     			add_location(section, file, 5, 0, 111);
     		},
     		l: function claim(nodes) {
@@ -1054,9 +1220,11 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
-    			mount_component(header, section, null);
+    			append_dev(section, div0);
+    			mount_component(header, div0, null);
     			append_dev(section, t);
-    			mount_component(homepage, section, null);
+    			append_dev(section, div1);
+    			mount_component(homepage, div1, null);
     			current = true;
     		},
     		p: noop,

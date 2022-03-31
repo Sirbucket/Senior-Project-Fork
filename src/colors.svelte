@@ -44,7 +44,7 @@
     section {
       width: 100px;
       font-size: 75%;
-      margin-right: 5px;
+      margin-right: 23px;
     }
     
     div, p {

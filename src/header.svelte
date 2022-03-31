@@ -19,7 +19,9 @@
         justify-content: space-between;
         align-items: start;
         background-color: red;
-        height: 175px;
+        height: 160px;
+        position: sticky;
+        top: 0px;
     }
     .text {
         align-self: center;
