@@ -1,12 +1,14 @@
 <script lang="js">
     function navChange(event) {
-        let x = event.target
+        let x = event.target.closest('.dropdown')
         x.classList.toggle('change')
         x.closest('section').classList.toggle('opened')
     }
 
-    function menuOpen(x) {
-        x.classList.toggle('hidden')
+    function menuOpen(event) {
+        let x = event.target.closest('.hidden')
+        x.classList.toggle('closed')
+        x.classList.toggle('visible')
     }
 </script>
 
@@ -16,8 +18,9 @@
       <div class="bar2"></div>
       <div class="bar3"></div>
   </div>
+  <div class="stuff">
   <div class="search hidden">
-      <input type="search" maxlength="14" autocomplete="off" placeholder="Search..." disabled>
+      <input type="search" maxlength="7" autocomplete="off" placeholder="Search..." disabled>
   </div>
   <div class="home hidden">
       <p>Home</p>
@@ -40,6 +43,10 @@
   <div class="faq hidden">
       <p>FAQ</p>
   </div>
+  </div>
+  <section class="ignore visible opened change">
+      <div class="bar1 bar2 bar3 stuff"></div>
+  </section>
 </section>
 
 <style>
@@ -47,8 +54,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: start;
-    overflow: hidden;
     transition: .5s;
+    position: relative;
 }
 
 section.opened {
@@ -58,12 +65,58 @@ section.opened {
 .hidden {
     display: none;
     overflow: hidden;
+    cursor: pointer;
 }
 
-.opened .hidden {
+.opened .stuff {
     display: block;
     overflow: hidden;
     margin: 10px;
+    height: 90vh;
+    width: 150px;
+}
+
+.opened .stuff .hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 10px;
+    height: 15px;
+}
+
+.opened .stuff .menu {
+    justify-content: start;
+}
+
+.menu {
+    height: 50px;
+}
+
+.closed {
+    height: 15px;
+}
+
+.visible {
+    height: 55px;
+}
+
+input {
+    width: 140px;
+}
+
+.stuff {
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    border: 0px;
+    height: 0px;
+    transition: height 1s;
+}
+
+.opened .stuff {
+    height: 185px;
 }
 
 div {
@@ -86,7 +139,6 @@ p {
   width: 30px;
   padding: 0px;
   border: 0px;
-  display: inline-block;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -98,12 +150,12 @@ p {
   width: 25px;
   height: 3px;
   background-color: #333;
-  transition: 0.4s;
+  transition: 0.7s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 /* Fade out the second bar */
@@ -113,6 +165,12 @@ p {
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.ignore {
+    position: absolute;
+    display: none;
+    pointer-events: none;
 }
 </style>

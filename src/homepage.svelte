@@ -17,7 +17,7 @@
         <img class="image4" alt="cool food :)">
     </div>
     <div class="right">
-        <img src="images\logo.png" class="image1" alt="cool logo :)">
+        <img src="images/logo.png" class="image1" alt="cool logo :)">
         <div class="location text">
             <h2>Location</h2>
             <p>We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.</p>
