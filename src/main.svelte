@@ -24,7 +24,7 @@
     <Header on:pageChange={changePage}/>
     </div>
     <div class="content">
-    <div id="home" class="active">
+    <div id="home" class="inactive">
     <Homepage/>
     </div>
     <div id="food" class="inactive">
@@ -33,7 +33,7 @@
     <div id="drink" class="inactive">
     <Drink/>
     </div>
-    <div id="contact" class="inactive">
+    <div id="contact" class="active">
     <Contact/>
     </div>
     <div id="schedule" class="inactive">

@@ -18,6 +18,7 @@
     <div class="text">
         <h1>Kat's Contemporary Cafe</h1>
     </div>
+    <div class="underline"></div>
     <Colors/>
 </main>
 
@@ -37,10 +38,19 @@
         margin-top: 20px;
     }
     h1 {
-        border-bottom: 2px solid white;
         font-size: 1000%;
         font-family: 'Miss Fajardose', cursive;
         color: white;
         background-color: black;
+    }
+    .underline {
+        position: absolute;
+        bottom: 48px;
+        left: 100px;
+        height: 2px;
+        width: 980px;
+        background-color: white;
+        z-index: 1000;
+        border-radius: 4px;
     }
 </style>
