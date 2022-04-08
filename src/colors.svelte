@@ -11,83 +11,91 @@
 </script>
 
 <section>
-    <div class="title">
-      <p>Website Appearance</p>
-    </div>
+  <div class="buttons">
     <div id="classy" class="flexy">
       <button class="classyB" on:click={styleChange}></button>
-      <p>Classy</p>
     </div>
     <div id="cozy" class="flexy">
       <button class="cozyB" on:click={styleChange}></button>
-      <p>Cozy</p>
     </div>
     <div id="cool" class="flexy">
       <button class="coolB" on:click={styleChange}></button>
-      <p>Cool</p>
     </div>
     <div id="carefree" class="flexy">
       <button class="carefreeB" on:click={styleChange}></button>
-      <p>Carefree</p>
-    </div>
-    <div id="celestial" class="flexy">
-      <button class="celestialB" on:click={styleChange}></button>
-      <p>Celestial</p>
     </div>
     <div class="tail">
       <div class="left"></div>
       <div class="right"></div>
     </div>
-  </section>
+  </div>
+  <div class="title">
+    <p>Website Appearance</p>
+  </div>
+</section>
 
 <style>
     section {
-      width: 100px;
-      font-size: 75%;
-      margin-right: 23px;
-    }
-    
-    div, p {
-      margin: 0px;
-      padding: 2px;
-    }
-
-    div {
+      width: 60px;
+      margin-right: 10px;
+      position: relative;
       display: flex;
-      align-items: center
     }
 
     button {
-      height: 17px;
-      width: 17px;
+      height: 24px;
+      width: 24px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 150px;
+      width: 40px;
+      margin-top: 15px;
+      margin-right: 0px;
     }
 
     .flexy {
-      background-color: green;
+      background-color: white;
+      margin: 0px;
+      padding: 8px;
     }
 
     .title {
       text-align: center;
-      background-color: green;
+      color: white;
+      transform: rotate(90deg);
+      height: 25px;
+      width: 150px;
+      position: absolute;
+      top: 65px;
+      left: -10px;
+    }
+
+    .title p {
+      width: 150px;
     }
 
     .tail {
-      height: 50px;
+      height: 40px;
       padding: 0px;
       display: flex;
     }
 
     .tail .left, .tail .right {
-      width: 50px;
-      height: 50px;
+      width: 20px;
+      height: 20px;
     }
 
     .tail .left {
-      background-image: linear-gradient(to bottom right, green 50%, #00000000 50%);
+      background-image: linear-gradient(to bottom right, white 50%, #00000000 50%);
     }
 
     .tail .right {
-      background-image: linear-gradient(to bottom left, green 50%, #00000000 50%)
+      background-image: linear-gradient(to bottom left, white 50%, #00000000 50%)
     }
 
 </style>

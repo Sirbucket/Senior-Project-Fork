@@ -1,4 +1,7 @@
 <script lang="js">
+    import { createEventDispatcher } from 'svelte'
+	const dispatch = createEventDispatcher()
+
     function navChange(event) {
         let x = event.target.closest('.dropdown')
         x.classList.toggle('change')
@@ -6,9 +9,16 @@
     }
 
     function menuOpen(event) {
-        let x = event.target.closest('.hidden')
+        let x = event.target.closest('.menu')
         x.classList.toggle('closed')
         x.classList.toggle('visible')
+    }
+
+    function pageChange(event) {
+        let x = event.target.closest('div').classList[0]
+        dispatch ('pageChange', {
+            newPage: x
+        })
     }
 </script>
 
@@ -19,29 +29,23 @@
       <div class="bar3"></div>
   </div>
   <div class="stuff">
-  <div class="search hidden">
-      <input type="search" maxlength="7" autocomplete="off" placeholder="Search..." disabled>
-  </div>
-  <div class="home hidden">
+  <div class="home hidden" on:click={pageChange}>
       <p>Home</p>
   </div>
-  <div class="menu hidden closed" on:click={menuOpen}>
-      <p>Menu</p>
-      <div class="food">
+  <div class="menu hidden closed">
+      <p on:click={menuOpen}>Menu</p>
+      <div class="food" on:click={pageChange}>
           <p>Food</p>
       </div>
-      <div class="drink">
+      <div class="drink" on:click={pageChange}>
           <p>Drinks</p>
       </div>
   </div>
-  <div class="events hidden">
-      <p>Events</p>
+  <div class="contact hidden" on:click={pageChange}>
+      <p>Contact<br>Us</p>
   </div>
-  <div class="hiring hidden">
-      <p>Hiring</p>
-  </div>
-  <div class="faq hidden">
-      <p>FAQ</p>
+  <div class="schedule hidden" on:click={pageChange}>
+      <p>Schedule</p>
   </div>
   </div>
   <section class="ignore visible opened change">
@@ -55,7 +59,6 @@ section {
     flex-direction: column;
     align-items: start;
     transition: .5s;
-    position: relative;
 }
 
 section.opened {
@@ -63,66 +66,78 @@ section.opened {
 }
 
 .hidden {
-    display: none;
     overflow: hidden;
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 35px;
+    font-size: 110%;
+    text-align: center;
 }
 
-.opened .stuff {
-    display: block;
+.stuff {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px;
+    height: 0px;
+    width: 80px;
+    transition: height 1s;
     overflow: hidden;
-    margin: 10px;
-    height: 90vh;
-    width: 150px;
+    background-color: white;
 }
 
-.opened .stuff .hidden {
+.stuff .hidden {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin: 10px;
-    height: 15px;
 }
 
-.opened .stuff .menu {
+.stuff .menu {
     justify-content: start;
 }
 
+.home {
+    margin-top: 58px;
+    margin-bottom: 15px;
+}
+
 .menu {
-    height: 50px;
+    height: 68px;
+    transition: .5s;
+    border: 0px;
+    width: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.schedule {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .closed {
-    height: 15px;
-}
-
-.visible {
-    height: 55px;
-}
-
-input {
-    width: 140px;
-}
-
-.stuff {
-    position: absolute;
-    top: 15px;
-    left: -10px;
-    border: 0px;
-    height: 0px;
-    transition: height 1s;
+    height: 20px;
+    text-align: center;
 }
 
 .opened .stuff {
-    height: 185px;
+    display: block;
+    overflow: hidden;
+    height: 290px;
 }
 
 div {
     height: 15px;
-    border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 p {
@@ -130,8 +145,21 @@ p {
     margin: 0px;
 }
 
-.faq {
-    margin-bottom: auto;
+.menu p {
+    width: 75px;
+    text-align: center;
+    padding: 0px;
+}
+
+.food, .drink {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 18px;
+    width: 90px;
+    display: flex;
+    font-size: 80%;
 }
 
 .dropdown {
@@ -144,18 +172,22 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-left: 25px;
+  margin-top: 25px;
+  z-index: 100;
 }
 
 .bar1, .bar2, .bar3 {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
+  width: 30px;
+  height: 5px;
+  background-color: white;
   transition: 0.7s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
   transform: rotate(-45deg) translate(-6px, 6px);
+  background-color: black;
 }
 
 /* Fade out the second bar */
@@ -166,6 +198,7 @@ p {
 /* Rotate last bar */
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -6px);
+  background-color: black;
 }
 
 .ignore {

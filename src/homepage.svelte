@@ -6,31 +6,35 @@
     <div class="main">
     <div class="left">
         <div class="about text">
-            <h2>About Us</h2>
-            <p>We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.</p>
+            <h2>Introduction:</h2>
+            <p>Welcome to Kat's Contemporary Cafe! A student-run pop-up shop dedicated to serving cozy food and warm drinks, perfect for rainy days, a stress-free work break, or even just chilling!</p>
         </div>
         <img class="image2" alt="cool food :)">
-        <div class="allergy text">
-            <h2>Allergy & Diet</h2>
-            <p>We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.</p>
+        <div class="help text">
+            <h2>Help Our School:</h2>
+            <p>This contemporary cafe is completely non-profit! Any and all proceeds will go back into helping IACS flourish! Funding field trips, helping fund next years senior projects, school building maintenance, and so much more! 
+            </p>
         </div>
-        <img class="image4" alt="cool food :)">
     </div>
     <div class="right">
         <img src="images/logo.png" class="image1" alt="cool logo :)">
         <div class="location text">
-            <h2>Location</h2>
-            <p>We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.</p>
+            <h2>Location:</h2>
+            <p>72 Tyng Rd</p>
+            <p>Tyngsboro, Massachusetts</p>
+            <p>xxx-xxx-xxxx</p>
+            <p>xxx-xxx@gmail.com</p>
+            <p>Look for the sign!</p>
         </div>
         <img class="image3" alt="cool food :)">
-        <div class="charity text">
-            <h2>Charity/Profit</h2>
-            <p>We're pretty epic. Pretty awesome. We make stuff and you buy it. This is some more text to fill the space so I can see what it looks like. It looks pretty good so far, but here's even more text now.</p>
-        </div>
+    </div>
+    <div class="righter">
+        <img class="footsteps" alt="footsteps">
     </div>
     </div>
-    <div class="legal">
-        <h4>Please don't sue us :)</h4>
+    <div class="footer text">
+        <p>Kat's Contemporary Cafe | xxx-xxx-xxxx | xxx-xxx@gmail.com | 72 Tyng Rd, Tyngsboro, Massachusetts
+        </p>
     </div>
 </section>
 
@@ -55,40 +59,76 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        width: 300px;
+    }
+
+    .left {
+        align-items: start;
+    }
+
+    .right {
+        align-items: end;
     }
 
     .text {
         height: 200px;
-        width: 200px;
-        border: 2px solid black;
+        width: 430px;
+        color: white;
         margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        font-size: 110%;
     }
 
     h2 {
-        border-bottom: 2px solid black;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        border-bottom: 2px solid white;
         margin-top: 10px;
     }
 
-    img {
+    .left img, .right img {
         width: 200px;
         height: 200px;
-        border: 2px solid black;
+        border: 2px solid white;
+        border-radius: 5px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
 
-    .legal {
-        width: 100vw;
-        background-color: #00000055;
-        color: white;
-        height: 30px;
+    .about{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .location p {
+        margin: 0px;
+        width: auto;
+        text-align: right;
+    }
+
+    .help {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .righter, .footsteps {
+        width: 200px;
+        border: 1px solid white;
+    }
+
+    .footer {
+        height: 17px;
+        width: 85vw;
+        border-top: 1px solid white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 </style>
