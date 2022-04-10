@@ -22,10 +22,9 @@
 
 <main class="background">
     <Dropdown on:pageChange={pageChange}/>
-    <div class="text base">
+    <div class="box text base">
         <h1>Kat's Contemporary Cafe</h1>
     </div>
-    <div class="underline accent"></div>
     <Colors on:styleChange={changeStyle}/>
 </main>
 
@@ -35,7 +34,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: start;
-        height: 220px;
+        height: 200px;
         position: sticky;
         top: 0px;
     }
@@ -47,13 +46,11 @@
         font-size: 1000%;
         font-family: 'Miss Fajardose', cursive;
     }
-    .underline {
-        position: absolute;
-        bottom: 48px;
-        left: 100px;
-        height: 2px;
-        width: 980px;
-        z-index: 1000;
-        border-radius: 4px;
+    .box {
+        border-bottom: 2px solid;
+        height: 280px;
+        padding-bottom: 20px;
+        position: relative;
+        bottom: 80px;
     }
 </style>

@@ -19,9 +19,8 @@
     }
 
     function changeColor(event) {
-        let id = 'base'
         let newStyle = event.detail.newStyle
-        let el = document.getElementById(id)
+        let el = document.getElementById('base')
         let old = el.classList[0]
         if (old != newStyle) {
             el.classList.remove(old)
@@ -67,6 +66,7 @@ section {
     position: sticky;
     top: 0px;
     z-index: 100;
+    height: 220px;
 }
 
 .active {

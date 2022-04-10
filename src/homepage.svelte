@@ -9,8 +9,8 @@
             <h2>Introduction:</h2>
             <p>Welcome to Kat's Contemporary Cafe! A student-run pop-up shop dedicated to serving cozy food and warm drinks, perfect for rainy days, a stress-free work break, or even just chilling!</p>
         </div>
-        <div class="image">
-        <img class="image2" alt="cool food :)">
+        <div class="image accent">
+        <img src="images/iacs1.jpg" alt="cool food :)">
         </div>
         <div class="help text">
             <h2>Help Our School:</h2>
@@ -19,8 +19,8 @@
         </div>
     </div>
     <div class="right base">
-        <div class="image">
-        <img src="images/logo.png" class="logo" alt="cool logo :)">
+        <div class="image accent">
+        <img src="images/logo.png" alt="cool logo :)">
         </div>
         <div class="location text">
             <h2>Location:</h2>
@@ -30,12 +30,12 @@
             <p>xxx-xxx@gmail.com</p>
             <p>Look for the sign!</p>
         </div>
-        <div class="image">
-        <img class="image3" alt="cool food :)">
+        <div class="image accent">
+        <img src="images/iacs2.jpg" alt="cool food :)">
         </div>
     </div>
     <div class="righter">
-        <img class="footsteps" alt="footsteps">
+        <img id="footsteps" src="images/footsteps.jpg" class="footsteps" alt="footsteps">
     </div>
     </div>
     <div class="footer text base background">
@@ -105,7 +105,6 @@
         padding: 0px;
         margin-top: 30px;
         margin-bottom: 30px;
-        background-color: white;
     }
 
     .about{
@@ -134,7 +133,6 @@
 
     .righter, .footsteps {
         width: 200px;
-        border: 2px solid white;
     }
 
     .footer {

@@ -10,7 +10,9 @@
                 <p>Ham, provolone cheese, pickles, mayonnaise, and mustard between buttered and pressed sweet hawaiian bread
                 </p>
             </div>
-            <img alt="Cuban sandwich">
+            <div class="img accent">
+            <img src="images/cuban.jpg" alt="Cuban sandwich" class="cubanImg">
+            </div>
         </div>
         <div class="hamfig item">
             <div class="hamfigInfo info text">
@@ -18,7 +20,9 @@
                 <p>Ham, provolone cheese, and fig jam between buttered and pressed sweet hawaiian bread
                 </p>
             </div>
-            <img alt="Ham and fig sandwich">
+            <div class="img accent">
+            <img src="images/ham.jpg" alt="Ham and fig sandwich" class="hamImg">
+            </div>
         </div>
         <div class="grilled item">
             <div class="grilledInfo info text">
@@ -26,7 +30,9 @@
                 <p>Provolone cheese between buttered and pressed sliced white bread
                 </p>
             </div>
-            <img alt="Grilled cheese">
+            <div class="img accent">
+            <img src="images/grilled.jpg" alt="Grilled cheese" class="grilledImg">
+            </div>
         </div>
         <div class="soup item">
             <div class="soupInfo info text">
@@ -34,7 +40,9 @@
                 <p>Creamy tomato soup topped with a pinch of basil
                 </p>
             </div>
-            <img alt="Tomato soup">
+            <div class="img accent">
+            <img src="images/soup.jpg" alt="Tomato soup" class="soupImg">
+            </div>
         </div>
     </div>
     <div class="footer text base">
@@ -74,10 +82,17 @@
         margin-right: auto;
     }
 
-    img {
+    .img {
         height: 120px;
         width: 160px;
-        border: 2px solid;
+    }
+
+    .img img {
+        width: 150px;
+        height: 92px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .footer {

@@ -9,14 +9,18 @@
                 <h2>Hot Chocolate</h2>
                 <p>Heated milk with chocolate powder.</p>
             </div>
-            <img alt="Hot chocolate">
+            <div class="img accent">
+                <img src="images/choc.jpg" alt="Hot chocolate" class="chocImg">
+            </div>
         </div>
         <div class="tea item">
             <div class="teaInfo info text">
                 <h2>Hot Tea</h2>
                 <p>Earl Gray, Black Irish Tea, Lavendar Tree</p>
             </div>
-            <img alt="Hot tea">
+            <div class="img accent">
+                <img src="images/tea.jpg" alt="Hot tea" class="teaImg">
+            </div>
         </div>
         <div class="warm item">
             <div class="warmInfo info text">
@@ -24,14 +28,9 @@
                 <p>A warm take on RI's official beverage, and a favorite amongst New England residents
                 </p>
             </div>
-            <img alt="Warm coffee milk">
-        </div>
-        <div class="else item">
-            <div class="elseInfo info text">
-                <h2>Smth Else</h2>
-                <p>Who knows</p>
+            <div class="img accent">
+                <img src="images/coffee.jpg" alt="Warm coffee milk" class="warmImg">
             </div>
-            <img alt="???">
         </div>
     </div>
     <div class="footer text base background">
@@ -71,10 +70,17 @@
         margin-right: auto;
     }
 
-    img {
+    .img {
         height: 120px;
         width: 160px;
-        border: 2px solid;
+    }
+
+    .img img {
+        width: 150px;
+        height: 92px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .footer {
