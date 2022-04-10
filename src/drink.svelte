@@ -6,7 +6,7 @@
     <div class="main base">
         <div class="choc item">
             <div class="chocInfo info text">
-                <h2>Hot Chocolate</h2>
+                <h2>Hot Chocolate. . . $3</h2>
                 <p>Heated milk with chocolate powder.</p>
             </div>
             <div class="img accent">
@@ -15,7 +15,7 @@
         </div>
         <div class="tea item">
             <div class="teaInfo info text">
-                <h2>Hot Tea</h2>
+                <h2>Hot Tea. . . $3</h2>
                 <p>Earl Gray, Black Irish Tea, Lavendar Tree</p>
             </div>
             <div class="img accent">
@@ -24,7 +24,7 @@
         </div>
         <div class="warm item">
             <div class="warmInfo info text">
-                <h2>Warm Coffee Milk</h2>
+                <h2>Warm Coffee Milk. . . $3</h2>
                 <p>A warm take on RI's official beverage, and a favorite amongst New England residents
                 </p>
             </div>
