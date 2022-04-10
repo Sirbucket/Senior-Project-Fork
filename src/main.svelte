@@ -17,14 +17,25 @@
             newPage.classList.add('active')
         }
     }
+
+    function changeColor(event) {
+        let id = 'base'
+        let newStyle = event.detail.newStyle
+        let el = document.getElementById(id)
+        let old = el.classList[0]
+        if (old != newStyle) {
+            el.classList.remove(old)
+            el.classList.add(newStyle)
+        }
+    }
 </script>
 
-<section>
+<section class="background">
     <div class="header">
-    <Header on:pageChange={changePage}/>
+    <Header on:pageChange={changePage} on:changeColor={changeColor}/>
     </div>
     <div class="content">
-    <div id="home" class="inactive">
+    <div id="home" class="active">
     <Homepage/>
     </div>
     <div id="food" class="inactive">
@@ -33,7 +44,7 @@
     <div id="drink" class="inactive">
     <Drink/>
     </div>
-    <div id="contact" class="active">
+    <div id="contact" class="inactive">
     <Contact/>
     </div>
     <div id="schedule" class="inactive">
@@ -47,7 +58,6 @@ section {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    background-color: black;
 }
 
 .header {

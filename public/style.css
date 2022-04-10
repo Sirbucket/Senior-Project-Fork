@@ -12,3 +12,126 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+.classy .base {
+  color: white;
+  border-color: white;
+}
+
+.classy .background {
+  background-color: black;
+}
+
+.classy .accent {
+  color: black;
+  background-color: white;
+}
+
+.classy .colorTailLeft {
+  background-image: linear-gradient(to bottom right, white 50%, #00000000 50%);
+}
+
+.classy .colorTailRight {
+  background-image: linear-gradient(to bottom left, white 50%, #00000000 50%);
+}
+
+.classy .bar1, .classy .bar2, .classy .bar3 {
+  background-color: white;
+}
+
+.classy .change .bar1, .classy .change .bar3 {
+  background-color: black;
+}
+
+
+.cozy .base {
+  color: #783f04;
+  border-color: #783f04;
+}
+
+.cozy .background {
+  background-color: #ead1dc;
+}
+
+.cozy .accent {
+  color: #ead1dc;
+  background-color: #783f04;
+}
+
+.cozy .colorTailLeft {
+  background-image: linear-gradient(to bottom right, #783f04 50%, #ead1dc 50%);
+}
+
+.cozy .colorTailRight {
+  background-image: linear-gradient(to bottom left, #783f04 50%, #ead1dc 50%);
+}
+
+.cozy .bar1, .cozy .bar2, .cozy .bar3 {
+  background-color: #783f04;
+}
+
+.cozy .change .bar1, .cozy .change .bar3 {
+  background-color: #ead1dc;
+}
+
+
+.cool .base {
+  color: silver;
+  border-color: silver;
+}
+
+.cool .accent {
+  color: #063970;
+  background-color: silver;
+}
+
+.cool .background {
+  background-color: #063970;
+}
+
+.cool .colorTailLeft {
+  background-image: linear-gradient(to bottom right, silver 50%, #063970 50%);
+}
+
+.cool .colorTailRight {
+  background-image: linear-gradient(to bottom left, silver 50%, #063970 50%);
+}
+
+.cool .bar1, .cool .bar2, .cool .bar3 {
+  background-color: silver;
+}
+
+.cool .change .bar1, .cool .change .bar3 {
+  background-color: #063970;
+}
+
+
+.carefree .base {
+  color: #f7ed98;
+  border-color: #f7ed98;
+}
+
+.carefree .accent {
+  color: #368a3a;
+  background-color: #f7ed98;
+}
+
+.carefree .background {
+  background-color: #368a3a;
+}
+
+.carefree .colorTailLeft {
+  background-image: linear-gradient(to bottom right, #f7ed98 50%, #368a3a 50%);
+}
+
+.carefree .colorTailRight {
+  background-image: linear-gradient(to bottom left, #f7ed98 50%, #368a3a 50%);
+}
+
+.carefree .bar1, .carefree .bar2, .carefree .bar3 {
+  background-color: #f7ed98;
+}
+
+.carefree .change .bar1, .carefree .change .bar3 {
+  background-color: #368a3a;
+}

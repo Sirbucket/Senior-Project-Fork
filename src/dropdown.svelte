@@ -28,7 +28,7 @@
       <div class="bar2"></div>
       <div class="bar3"></div>
   </div>
-  <div class="stuff">
+  <div class="stuff accent">
   <div class="home hidden" on:click={pageChange}>
       <p>Home</p>
   </div>
@@ -58,7 +58,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: start;
-    transition: .5s;
 }
 
 section.opened {
@@ -71,9 +70,17 @@ section.opened {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 80px;
-    height: 35px;
+    height: 37px;
     font-size: 110%;
     text-align: center;
+}
+
+.hidden p {
+    transition: .5s;
+}
+
+.hidden p:hover {
+    transform: scale(1.1, 1.1)
 }
 
 .stuff {
@@ -85,7 +92,6 @@ section.opened {
     width: 80px;
     transition: height 1s;
     overflow: hidden;
-    background-color: white;
 }
 
 .stuff .hidden {
@@ -107,7 +113,7 @@ section.opened {
 
 .menu {
     height: 68px;
-    transition: .5s;
+    transition: height .5s;
     border: 0px;
     width: 75px;
     margin-top: 15px;
@@ -180,14 +186,12 @@ p {
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 5px;
-  background-color: white;
   transition: 0.7s;
 }
 
 /* Rotate first bar */
 .change .bar1 {
   transform: rotate(-45deg) translate(-6px, 6px);
-  background-color: black;
 }
 
 /* Fade out the second bar */
@@ -198,7 +202,6 @@ p {
 /* Rotate last bar */
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -6px);
-  background-color: black;
 }
 
 .ignore {

@@ -2,8 +2,8 @@
 
 </script>
 
-<section>
-    <div class="main">
+<section class="background">
+    <div class="main base">
         <div class="choc item">
             <div class="chocInfo info text">
                 <h2>Hot Chocolate</h2>
@@ -34,7 +34,7 @@
             <img alt="???">
         </div>
     </div>
-    <div class="footer text">
+    <div class="footer text base background">
         <p>Kat's Contemporary Cafe | xxx-xxx-xxxx | xxx-xxx@gmail.com | 72 Tyng Rd, Tyngsboro, Massachusetts
         </p>
     </div>
@@ -50,7 +50,6 @@
     }
 
     .text {
-        color: white;
         font-size: 110%;
         font-family: 'Comfortaa', cursive;
     }
@@ -68,20 +67,20 @@
     }
 
     h2 {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid;
         margin-right: auto;
     }
 
     img {
         height: 120px;
         width: 160px;
-        border: 2px solid white;
+        border: 2px solid;
     }
 
     .footer {
         height: 17px;
         width: 85vw;
-        border-top: 1px solid white;
+        border-top: 1px solid;
         margin-left: auto;
         margin-right: auto;
         text-align: center;

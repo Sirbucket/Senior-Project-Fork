@@ -11,15 +11,22 @@
             newPage: newPage
         })
     }
+
+    function changeStyle(event) {
+        let newStyle = event.detail.newStyle
+        dispatch ('changeColor', {
+            newStyle
+        })
+    }
 </script>
 
-<main>
+<main class="background">
     <Dropdown on:pageChange={pageChange}/>
-    <div class="text">
+    <div class="text base">
         <h1>Kat's Contemporary Cafe</h1>
     </div>
-    <div class="underline"></div>
-    <Colors/>
+    <div class="underline accent"></div>
+    <Colors on:styleChange={changeStyle}/>
 </main>
 
 <style>
@@ -31,7 +38,6 @@
         height: 220px;
         position: sticky;
         top: 0px;
-        background-color: black;
     }
     .text {
         align-self: center;
@@ -40,8 +46,6 @@
     h1 {
         font-size: 1000%;
         font-family: 'Miss Fajardose', cursive;
-        color: white;
-        background-color: black;
     }
     .underline {
         position: absolute;
@@ -49,7 +53,6 @@
         left: 100px;
         height: 2px;
         width: 980px;
-        background-color: white;
         z-index: 1000;
         border-radius: 4px;
     }
