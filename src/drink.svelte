@@ -16,7 +16,7 @@
         <div class="tea item">
             <div class="teaInfo info text">
                 <h2>Hot Tea. . . $3</h2>
-                <p>Earl Gray, Black Irish Tea, Lavendar Tree</p>
+                <p>Earl Gray, Black Irish Tea, Lavender Tea</p>
             </div>
             <div class="img accent">
                 <img src="images/tea.jpg" alt="Hot tea" class="teaImg">
