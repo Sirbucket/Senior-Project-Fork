@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="righter">
-        <img id="footsteps" src="images/footsteps.jpg" class="footsteps" alt="footsteps">
+        <img id="footsteps" src="images/footsteps.png" class="footsteps" alt="footsteps">
     </div>
     </div>
     <div class="footer text base background">

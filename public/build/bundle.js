@@ -1083,7 +1083,7 @@ var app = (function () {
     			attr_dev(div7, "class", "right base svelte-znginv");
     			add_location(div7, file$5, 20, 4, 865);
     			attr_dev(img3, "id", "footsteps");
-    			if (!src_url_equal(img3.src, img3_src_value = "images/footsteps.jpg")) attr_dev(img3, "src", img3_src_value);
+    			if (!src_url_equal(img3.src, img3_src_value = "images/footsteps.png")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "class", "footsteps svelte-znginv");
     			attr_dev(img3, "alt", "footsteps");
     			add_location(img3, file$5, 37, 8, 1426);
