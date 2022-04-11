@@ -44,11 +44,9 @@
   <div class="contact hidden" on:click={pageChange}>
       <p>Contact<br>Us</p>
   </div>
-  <!--
   <div class="schedule hidden" on:click={pageChange}>
       <p>Schedule</p>
   </div>
-  -->
   </div>
   <section class="ignore visible opened change">
       <div class="bar1 bar2 bar3 stuff"></div>
@@ -110,7 +108,7 @@ section.opened {
 }
 
 .home {
-    margin-top: 58px;
+    margin-top: 63px;
     margin-bottom: 15px;
 }
 
@@ -127,12 +125,12 @@ section.opened {
     margin-top: 25px;
     margin-bottom: 15px;
 }
-/*
+
 .schedule {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-*/
+
 .closed {
     height: 20px;
     text-align: center;
@@ -141,7 +139,7 @@ section.opened {
 .opened .stuff {
     display: block;
     overflow: hidden;
-    height: 260px;
+    height: 305px;
 }
 
 p {
