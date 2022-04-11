@@ -1,4 +1,4 @@
-<script lang="js">
+<script>
     import { createEventDispatcher } from 'svelte'
 	const dispatch = createEventDispatcher()
 
@@ -94,6 +94,7 @@ section.opened {
     width: 80px;
     transition: height 1s;
     overflow: hidden;
+    border-bottom-right-radius: 10px;
 }
 
 .stuff .hidden {
@@ -143,11 +144,6 @@ section.opened {
     height: 260px;
 }
 
-div {
-    height: 15px;
-    border-radius: 2px;
-}
-
 p {
     padding: 0px;
     margin: 0px;
@@ -189,6 +185,7 @@ p {
   width: 30px;
   height: 5px;
   transition: 0.7s;
+  border-radius: 2px;
 }
 
 /* Rotate first bar */
