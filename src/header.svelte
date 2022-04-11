@@ -34,23 +34,22 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: start;
-        height: 200px;
+        height: 16.66vw;
         position: sticky;
         top: 0px;
+        padding-bottom: 0.83vw;
     }
     .text {
-        align-self: center;
-        margin-top: 20px;
+        margin-top: 1.66vw;
     }
     h1 {
-        font-size: 1000%;
+        font-size: 13vw;
         font-family: 'Miss Fajardose', cursive;
+        margin: 0px;
     }
     .box {
         border-bottom: 2px solid;
-        height: 280px;
-        padding-bottom: 20px;
+        height: 12.3vw;
         position: relative;
-        bottom: 80px;
     }
 </style>

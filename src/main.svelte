@@ -66,7 +66,7 @@ section {
     position: sticky;
     top: 0px;
     z-index: 100;
-    height: 220px;
+    height: 18.33vw;
 }
 
 .active {

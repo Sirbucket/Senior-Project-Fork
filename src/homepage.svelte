@@ -65,7 +65,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 300px;
+        width: 25vw;
     }
 
     .left {
@@ -77,34 +77,39 @@
     }
 
     .text {
-        height: 200px;
-        width: 430px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        height: 16.66vw;
+        width: 35.83vw;
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
         font-family: 'Comfortaa', cursive;
         font-size: 110%;
     }
 
     h2 {
         border-bottom: 2px solid;
-        margin-top: 10px;
+        margin-top: 0.83vw;
+        font-size: 2vw;
+    }
+
+    p {
+        font-size: 1.5vw;
     }
 
     .left img, .right img {
-        width: 180px;
-        height: 180px;
+        width: 15vw;
+        height: 15vw;
         background-color: black;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-top: 0.83vw;
+        margin-left: 0.83vw;
+        margin-right: 0.83vw;
     }
 
     .image {
-        height: 230px;
-        width: 200px;
+        height: 19.16vw;
+        width: 16.66vw;
         padding: 0px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
     }
 
     .about{
@@ -132,7 +137,7 @@
     }
 
     .righter, .footsteps {
-        width: 200px;
+        width: 16.66vw;
     }
 
     .footer {

@@ -54,7 +54,7 @@
 <style>
     .main {
         margin: auto;
-        width: 980px;
+        width: 81.67vw;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -68,35 +68,40 @@
     .item {
         display: flex;
         align-items: center;
-        height: 149px;
+        height: 12.42vw;
     }
 
     .info {
         display: flex;
         flex-direction: column;
-        width: 800px;
+        width: 66.67vw;
     }
 
     h2 {
         border-bottom: 2px solid;
         margin-right: auto;
+        font-size: 2vw;
+    }
+
+    p {
+        font-size: 1.5vw;
     }
 
     .img {
-        height: 120px;
-        width: 160px;
+        height: 10vw;
+        width: 13.33vw;
     }
 
     .img img {
-        width: 150px;
-        height: 92px;
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
+        width: 12.5vw;
+        height: 7.67vw;
+        margin-top: 0.42vw;
+        margin-left: 0.42vw;
+        margin-right: 0.42vw;
     }
 
     .footer {
-        height: 17px;
+        height: 1.42vw;
         width: 85vw;
         border-top: 1px solid;
         margin-left: auto;

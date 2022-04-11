@@ -14,7 +14,7 @@
         <img src="images/logo.png" alt="Cool logo :)">
         </div>
         <div class="right text base">
-            <h2>Try Reaching Us Using:</h2>
+            <h2>Reach Us Using:</h2>
             <p>xxx-xxx-xxxx</p>
             <p>xxx-xxx@gmail.com</p>
         </div>
@@ -29,13 +29,13 @@
     .main {
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: 155px;
+        margin-bottom: 12.92vw;
     }
 
     .text {
         font-size: 110%;
         font-family: 'Comfortaa', cursive;
-        width: 250px;
+        width: 20.83vw;
     }
 
     .left, .right {
@@ -53,32 +53,33 @@
 
     h2 {
         border-bottom: 2px solid;
-        margin-bottom: 20px;
-        font-size: 120%;
+        margin-bottom: 1.67vw;
+        font-size: 2vw;
     }
 
     p {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 0.83vw;
+        margin-bottom: 0.83vw;
+        font-size: 1.5vw;
     }
 
     .image {
-        width: 250px;
-        height: 280px;
+        width: 20.83vw;
+        height: 23.33vw;
         background-color: white;
     }
 
     img {
-        width: 230px;
-        height: 230px;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 19.17vw;
+        height: 19.17vw;
+        margin-top: 0.83vw;
+        margin-left: 0.83vw;
+        margin-right: 0.83vw;
         background-color: black;
     }
 
     .footer {
-        height: 17px;
+        height: 1.42vw;
         width: 85vw;
         border-top: 1px solid;
         margin-left: auto;

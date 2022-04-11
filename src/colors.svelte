@@ -13,16 +13,16 @@
 <section>
   <div class="buttons">
     <div id="classy" class="flexy accent">
-      <button class="classyB" on:click={styleChange}></button>
+      <div class="classyB button" on:click={styleChange}></div>
     </div>
     <div id="cozy" class="flexy accent">
-      <button class="cozyB" on:click={styleChange}></button>
+      <div class="cozyB button" on:click={styleChange}></div>
     </div>
     <div id="cool" class="flexy accent">
-      <button class="coolB" on:click={styleChange}></button>
+      <div class="coolB button" on:click={styleChange}></div>
     </div>
     <div id="carefree" class="flexy accent">
-      <button class="carefreeB" on:click={styleChange}></button>
+      <div class="carefreeB button" on:click={styleChange}></div>
     </div>
     <div class="tail">
       <div class="left colorTailLeft"></div>
@@ -36,59 +36,61 @@
 
 <style>
     section {
-      width: 60px;
-      margin-right: 10px;
+      width: 5vw;
+      margin-right: 0.83vw;
       position: relative;
       display: flex;
+      font-family: 'Comfortaa', cursive;
     }
 
-    button {
-      height: 24px;
-      width: 24px;
-      border: 2px solid black;
-      border-radius: 5px;
+    .button {
+      height: 1.67vw;
+      width: 1.67vw;
+      border: 0.17vw solid black;
+      border-radius: 0.42vw;
       z-index: 100;
     }
 
     .buttons {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      height: 150px;
-      width: 40px;
-      margin-top: 15px;
+      height: 12.5vw;
+      width: 3.33vw;
+      margin-top: 0px;
       margin-right: 0px;
     }
 
     .flexy {
+      width: 2vw;
       margin: 0px;
-      padding: 8px;
+      padding-left: 0.67vw;
+      padding-right: 0.67vw;
+      padding-top: 0.6vw;
+      padding-bottom: 0.6vw;
     }
 
     .title {
       text-align: center;
       transform: rotate(90deg);
-      height: 25px;
-      width: 150px;
+      height: 2.08vw;
+      width: 12.5vw;
       position: absolute;
-      top: 65px;
-      left: -10px;
+      top: 5.42vw;
+      left: -0.83vw;
     }
 
     .title p {
-      width: 150px;
+      width: 15vw;
+      font-size: 1.3vw;
     }
 
     .tail {
-      height: 40px;
+      height: 3.33vw;
       padding: 0px;
       display: flex;
     }
 
     .tail .left, .tail .right {
-      width: 20px;
-      height: 20px;
+      width: 1.67vw;
+      height: 1.67vw;
     }
 
     .classyB {

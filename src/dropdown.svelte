@@ -67,11 +67,11 @@ section.opened {
 .hidden {
     overflow: hidden;
     cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 80px;
-    height: 37px;
-    font-size: 110%;
+    margin-top: 0.83vw;
+    margin-bottom: 0.83vw;
+    width: 6.67vw;
+    height: 3.08;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -89,10 +89,10 @@ section.opened {
     left: 0px;
     border: 0px;
     height: 0px;
-    width: 80px;
+    width: 6.67vw;
     transition: height 1s;
     overflow: hidden;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0.83vw;
 }
 
 .stuff .hidden {
@@ -108,38 +108,38 @@ section.opened {
 }
 
 .home {
-    margin-top: 63px;
-    margin-bottom: 15px;
+    margin-top: 5.25vw;
+    margin-bottom: 1.25vw;
 }
 
 .menu {
-    height: 68px;
+    height: 5.67vw;
     transition: height .5s;
     border: 0px;
-    width: 75px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 6.25vw;
+    margin-top: 1.25vw;
+    margin-bottom: 1.25vw;
 }
 
 .contact {
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 1.25vw;
+    margin-bottom: 1.25vw;
 }
 
 .schedule {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 1.25vw;
+    margin-bottom: 1.25vw;
 }
 
 .closed {
-    height: 20px;
+    height: 1.67vw;
     text-align: center;
 }
 
 .opened .stuff {
     display: block;
     overflow: hidden;
-    height: 305px;
+    height: 23.5vw;
 }
 
 p {
@@ -148,25 +148,25 @@ p {
 }
 
 .menu p {
-    width: 75px;
+    width: 6.25vw;
     text-align: center;
     padding: 0px;
 }
 
 .food, .drink {
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 0.33vw;
+    margin-bottom: 0.33vw;
     margin-right: auto;
     margin-left: auto;
-    height: 18px;
-    width: 90px;
+    height: 1.5vw;
+    width: 7.5vw;
     display: flex;
-    font-size: 80%;
+    font-size: 1.36vw;
 }
 
 .dropdown {
-  height: 30px;
-  width: 30px;
+  height: 2.5vw;
+  width: 2.5vw;
   padding: 0px;
   border: 0px;
   cursor: pointer;
@@ -174,21 +174,21 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 25px;
-  margin-top: 25px;
+  margin-left: 2.08vw;
+  margin-top: 2.08vw;
   z-index: 100;
 }
 
 .bar1, .bar2, .bar3 {
-  width: 30px;
-  height: 5px;
+  width: 2.5vw;
+  height: 0.42vw;
   transition: 0.7s;
-  border-radius: 2px;
+  border-radius: 0.17vw;
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-0.5vw, 0.5vw);
 }
 
 /* Fade out the second bar */
@@ -198,7 +198,7 @@ p {
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-0.5vw, -0.5vw);
 }
 
 .ignore {
