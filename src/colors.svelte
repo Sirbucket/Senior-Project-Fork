@@ -109,4 +109,39 @@
       background-image: linear-gradient(to bottom right, #f7ed98 50%, #368a3a 50%);
     }
 
+    @media screen and (max-width: 550px) {
+      .title {
+        display: none;
+      }
+
+      .button {
+        height: 2.51vw;
+        width: 2.51vw;
+        border: 0.26vw solid black;
+        border-radius: 0.63vw;
+      }
+
+      .buttons {
+        height: 18.75vw;
+        width: 5vw;
+      }
+
+      .flexy {
+        width: 3vw;
+        padding-left: 1.01vw;
+        padding-right: 1.01vw;
+        padding-top: 0.9vw;
+        padding-bottom: 0.9vw;
+      }
+
+      .tail {
+        height: 5vw;
+      }
+
+      .tail .left, .tail .right {
+        width: 2.51vw;
+        height: 2.51vw;
+      }
+    }
+
 </style>

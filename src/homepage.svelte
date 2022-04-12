@@ -86,7 +86,7 @@
     }
 
     h2 {
-        border-bottom: 2px solid;
+        border-bottom: 0.16px solid;
         margin-top: 0.83vw;
         font-size: 2vw;
     }
@@ -140,10 +140,51 @@
         width: 16.66vw;
     }
 
+    @media screen and (max-width: 600px) {
+        .main {
+            justify-content: space-around;
+        }
+        
+        h2 {
+            font-size: 3vw;
+        }
+
+        p {
+            font-size: 2.3vw;
+        }
+
+        .text {
+            height: 33.32vw;
+            width: 39.83vw;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+        }
+
+        .left img, .right img {
+            width: 22.5vw;
+            height: 22.5vw;
+            margin-top: 1.245vw;
+            margin-left: 1.245vw;
+            margin-right: 1.245vw;
+        }
+
+        .image {
+            height: 28.74vw;
+            width: 24.99vw;
+            margin-top: 3.75vw;
+            margin-bottom: 3.75vw;
+        }
+
+        .righter, .footsteps {
+            width: 0px;
+            display: none;
+        }
+    }
+
     .footer {
         height: 17px;
         width: 85vw;
-        border-top: 1px solid;
+        border-top: 0.08vw solid;
         margin-left: auto;
         margin-right: auto;
         text-align: center;

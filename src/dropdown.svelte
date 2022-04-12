@@ -23,7 +23,7 @@
 </script>
 
 <section lang=en>
-  <div class="dropdown" on:click={navChange}>
+  <div id="dropdown" class="dropdown" on:click={navChange}>
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
@@ -67,11 +67,11 @@ section.opened {
 .hidden {
     overflow: hidden;
     cursor: pointer;
-    margin-top: 0.83vw;
-    margin-bottom: 0.83vw;
-    width: 6.67vw;
-    height: 3.08;
-    font-size: 1.5vw;
+    margin-top: max(0.83vw, 7.1px);
+    margin-bottom: max(0.83vw, 7.1px);
+    width: max(6.67vw, 56.7px);
+    height: max(3.08vw, 26.18px);
+    font-size: max(1.5vw, 12.75px);
     text-align: center;
 }
 
@@ -89,10 +89,10 @@ section.opened {
     left: 0px;
     border: 0px;
     height: 0px;
-    width: 6.67vw;
+    width: max(6.67vw, 56.7px);
     transition: height 1s;
     overflow: hidden;
-    border-bottom-right-radius: 0.83vw;
+    border-bottom-right-radius: max(0.83vw, 7.1px);
 }
 
 .stuff .hidden {
@@ -108,38 +108,38 @@ section.opened {
 }
 
 .home {
-    margin-top: 5.25vw;
-    margin-bottom: 1.25vw;
+    margin-top: max(5.25vw, 44.63px);
+    margin-bottom: max(1.25vw, 10.63px);
 }
 
 .menu {
-    height: 5.67vw;
+    height: max(5.67vw, 48.2px);
     transition: height .5s;
     border: 0px;
-    width: 6.25vw;
-    margin-top: 1.25vw;
-    margin-bottom: 1.25vw;
+    width: max(6.25vw, 53.125px);
+    margin-top: max(1.25vw, 10.63px);
+    margin-bottom: max(1.25vw, 10.63px);
 }
 
 .contact {
-    margin-top: 1.25vw;
-    margin-bottom: 1.25vw;
+    margin-top: max(1.25vw, 10.63px);
+    margin-bottom: max(1.25vw, 10.63px);
 }
 
 .schedule {
-    margin-top: 1.25vw;
-    margin-bottom: 1.25vw;
+    margin-top: max(1.25vw, 10.63px);
+    margin-bottom: max(1.25vw, 10.63px);
 }
 
 .closed {
-    height: 1.67vw;
+    height: max(1.67vw, 14.2px);
     text-align: center;
 }
 
 .opened .stuff {
     display: block;
     overflow: hidden;
-    height: 23.5vw;
+    height: max(24.7vw, 210px);
 }
 
 p {
@@ -148,25 +148,25 @@ p {
 }
 
 .menu p {
-    width: 6.25vw;
+    width: max(6.25vw, 53.125px);
     text-align: center;
     padding: 0px;
 }
 
 .food, .drink {
-    margin-top: 0.33vw;
-    margin-bottom: 0.33vw;
+    margin-top: max(0.33vw, 2.8px);
+    margin-bottom: max(0.33vw, 2.8px);
     margin-right: auto;
     margin-left: auto;
-    height: 1.5vw;
-    width: 7.5vw;
+    height: max(1.5vw, 12.75px);
+    width: max(7.5vw, 63.75px);
     display: flex;
-    font-size: 1.36vw;
+    font-size: max(1.36vw, 11.56px);
 }
 
 .dropdown {
-  height: 2.5vw;
-  width: 2.5vw;
+  height: max(2.5vw, 18.25px);
+  width: max(2.5vw, 18.25px);
   padding: 0px;
   border: 0px;
   cursor: pointer;
@@ -174,21 +174,21 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 2.08vw;
-  margin-top: 2.08vw;
+  margin-left: max(2.08vw, 17.68px);
+  margin-top: max(2.08vw, 17.68px);
   z-index: 100;
 }
 
 .bar1, .bar2, .bar3 {
-  width: 2.5vw;
-  height: 0.42vw;
+  width: max(2.5vw, 18.25px);
+  height: max(0.42vw, 3.5px);
   transition: 0.7s;
-  border-radius: 0.17vw;
+  border-radius: max(0.17vw, 1.5px);
 }
 
 /* Rotate first bar */
 .change .bar1 {
-  transform: rotate(-45deg) translate(-0.5vw, 0.5vw);
+  transform: rotate(-45deg) translate(min(-0.5vw, -3.25px), max(0.5vw, 4.25px));
 }
 
 /* Fade out the second bar */
@@ -198,7 +198,7 @@ p {
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: rotate(45deg) translate(-0.5vw, -0.5vw);
+  transform: rotate(45deg) translate(min(-0.5vw, -3.25px), min(-0.5vw, -4.25px));
 }
 
 .ignore {

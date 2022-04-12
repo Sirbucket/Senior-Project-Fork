@@ -48,7 +48,7 @@
         margin: 0px;
     }
     .box {
-        border-bottom: 2px solid;
+        border-bottom: 0.16vw solid;
         height: 12.3vw;
         position: relative;
     }

@@ -67,43 +67,45 @@
 
     .item {
         display: flex;
+        justify-content: space-evenly;
         align-items: center;
-        height: 12.42vw;
+        width: 81.67vw;
     }
 
     .info {
         display: flex;
         flex-direction: column;
-        width: 66.67vw;
+        width: 65%;
+        margin-right: auto;
     }
 
     h2 {
         border-bottom: 2px solid;
         margin-right: auto;
-        font-size: 2vw;
+        font-size: max(2vw, 12px);
     }
 
     p {
-        font-size: 1.5vw;
+        font-size: max(1.5vw, 9px);
     }
 
     .img {
-        height: 10vw;
-        width: 13.33vw;
+        height: max(10vw, 60px);
+        width: max(13.33vw, 80px);
     }
 
     .img img {
-        width: 12.5vw;
-        height: 7.67vw;
-        margin-top: 0.42vw;
-        margin-left: 0.42vw;
-        margin-right: 0.42vw;
+        width: max(12.5vw, 75px);
+        height: max(7.67vw, 46.02px);
+        margin-top: max(0.42vw, 2.5px);
+        margin-left: max(0.42vw, 2.5px);
+        margin-right: max(0.42vw, 2.5px);
     }
 
     .footer {
         height: 1.42vw;
         width: 85vw;
-        border-top: 1px solid;
+        border-top: 0.08vw solid;
         margin-left: auto;
         margin-right: auto;
         text-align: center;

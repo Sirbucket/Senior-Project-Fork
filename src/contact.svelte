@@ -29,13 +29,13 @@
     .main {
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: 12.92vw;
+        margin-bottom: min(12vw, 125px);
     }
 
     .text {
         font-size: 110%;
         font-family: 'Comfortaa', cursive;
-        width: 20.83vw;
+        width: max(20.83vw, 208.3px);
     }
 
     .left, .right {
@@ -52,38 +52,61 @@
     }
 
     h2 {
-        border-bottom: 2px solid;
-        margin-bottom: 1.67vw;
-        font-size: 2vw;
+        border-bottom: 0.17vw solid;
+        margin-bottom: max(1.67vw, 16.7px);
+        font-size: max(2vw, 20px);
     }
 
-    p {
-        margin-top: 0.83vw;
-        margin-bottom: 0.83vw;
-        font-size: 1.5vw;
+    .main p {
+        margin-top: max(0.83vw, 8.3px);
+        margin-bottom: max(0.83vw, 8.3px);
+        font-size: max(1.5vw, 15px);
     }
 
     .image {
-        width: 20.83vw;
-        height: 23.33vw;
+        width: max(20.83vw, 208.3px);
+        height: max(23.33vw, 233.33px);
         background-color: white;
     }
 
     img {
-        width: 19.17vw;
-        height: 19.17vw;
-        margin-top: 0.83vw;
-        margin-left: 0.83vw;
-        margin-right: 0.83vw;
+        width: max(19.17vw, 191.7px);
+        height: max(19.17vw, 191.7px);
+        margin-top: max(0.83vw, 8.3px);
+        margin-left: max(0.83vw, 8.3px);
+        margin-right: max(0.83vw, 8.3px);
         background-color: black;
+    }
+
+    @media screen and (max-width: 700px) {
+        .image {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 475px) {
+        .main {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left, .right {
+            align-items: center;
+        }
+
+        .left {
+            margin-bottom: 75px;
+        }
     }
 
     .footer {
         height: 1.42vw;
         width: 85vw;
-        border-top: 1px solid;
+        border-top: 0.08vw solid;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        font-size: max(1.5vw, 12px);
     }
 </style>
