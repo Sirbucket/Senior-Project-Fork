@@ -22,31 +22,31 @@
     }
 </script>
 
-<section lang=en>
+<section>
   <div id="dropdown" class="dropdown" on:click={navChange}>
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
   </div>
   <div class="stuff accent">
-  <div class="home hidden" on:click={pageChange}>
-      <p>Home</p>
-  </div>
-  <div class="menu hidden closed">
-      <p on:click={menuOpen}>Menu</p>
-      <div class="food" on:click={pageChange}>
-          <p>Food</p>
-      </div>
-      <div class="drink" on:click={pageChange}>
-          <p>Drinks</p>
-      </div>
-  </div>
-  <div class="contact hidden" on:click={pageChange}>
-      <p>Contact<br>Us</p>
-  </div>
-  <div class="schedule hidden" on:click={pageChange}>
-      <p>Schedule</p>
-  </div>
+    <div class="home hidden" on:click={pageChange}>
+        <p>Home</p>
+    </div>
+    <div class="menu hidden closed">
+        <p on:click={menuOpen}>Menu</p>
+        <div class="food" on:click={pageChange}>
+            <p>Food</p>
+        </div>
+        <div class="drink" on:click={pageChange}>
+            <p>Drinks</p>
+        </div>
+    </div>
+    <div class="contact hidden" on:click={pageChange}>
+        <p>Contact<br>Us</p>
+    </div>
+    <div class="schedule hidden" on:click={pageChange}>
+        <p>Schedule</p>
+    </div>
   </div>
   <section class="ignore visible opened change">
       <div class="bar1 bar2 bar3 stuff"></div>
@@ -182,7 +182,7 @@ p {
 .bar1, .bar2, .bar3 {
   width: max(2.5vw, 18.25px);
   height: max(0.42vw, 3.5px);
-  transition: 0.7s;
+  transition: all 0.7s;
   border-radius: max(0.17vw, 1.5px);
 }
 

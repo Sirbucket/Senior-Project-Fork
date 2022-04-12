@@ -50,6 +50,7 @@
     .box {
         border-bottom: 0.16vw solid;
         height: 12.3vw;
+        width: 82vw;
         position: relative;
     }
 </style>
