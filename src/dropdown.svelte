@@ -20,9 +20,38 @@
             newPage: x
         })
     }
+
+    let srcHome = 'images/homeIconClassy.png'
+    $: src1 = srcHome
+    let srcMenu = 'images/menuIconClassy.png'
+    $: src2 = srcMenu
+    let srcFood = 'images/foodIconClassy.png'
+    $: src3 = srcFood
+    let srcDrink = 'images/drinkIconClassy.png'
+    $: src4 = srcDrink
+    let srcCont = 'images/contactIconClassy.png'
+    $: src5 = srcCont
+    let srcSched = 'images/scheduleIconClassy.png'
+    $: src6 = srcSched
+    
+    let el
+    $: if (el) {
+        console.log(el.style.height)
+    }
+/*
+    $: if (el.style.height = '400px') {
+        srcHome = 'images/homeIconCozy.png'
+    } else if (el.style.height = '390px') {
+        srcHome = 'images/homeIconCool.png'
+    } else if (el.style.height = '380px') {
+        srcHome = 'images/homeIconCarefree.png'
+    } else {
+        srcHome = 'images/homeIconClassy.png'
+    }
+*/
 </script>
 
-<section>
+<section id="test" bind:this={el}>
   <div id="dropdown" class="dropdown" on:click={navChange}>
       <div class="bar1"></div>
       <div class="bar2"></div>
@@ -31,21 +60,27 @@
   <div class="stuff accent">
     <div class="home hidden" on:click={pageChange}>
         <p>Home</p>
+        <img src={srcHome} alt="Home">
     </div>
-    <div class="menu hidden closed">
+    <div id="navMenu" class="menu hidden closed">
         <p on:click={menuOpen}>Menu</p>
-        <div class="food" on:click={pageChange}>
+        <img src={srcMenu} on:click={menuOpen} alt="Menu">
+        <div id="navFood" class="food" on:click={pageChange}>
             <p>Food</p>
+            <img src={srcFood} alt="Food">
         </div>
-        <div class="drink" on:click={pageChange}>
+        <div id="navDrink" class="drink" on:click={pageChange}>
             <p>Drinks</p>
+            <img src={srcDrink} alt="Drink">
         </div>
     </div>
     <div class="contact hidden" on:click={pageChange}>
         <p>Contact<br>Us</p>
+        <img src={srcCont} alt="Contact">
     </div>
     <div class="schedule hidden" on:click={pageChange}>
         <p>Schedule</p>
+        <img src={srcSched} alt="Schedule">
     </div>
   </div>
   <section class="ignore visible opened change">
@@ -69,9 +104,9 @@ section.opened {
     cursor: pointer;
     margin-top: max(0.83vw, 7.1px);
     margin-bottom: max(0.83vw, 7.1px);
-    width: max(6.67vw, 56.7px);
-    height: max(3.08vw, 26.18px);
-    font-size: max(1.5vw, 12.75px);
+    width: 6.67vw;
+    height: 3.08vw;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -83,13 +118,17 @@ section.opened {
     transform: scale(1.1, 1.1)
 }
 
+.hidden img {
+    display: none;
+}
+
 .stuff {
     position: absolute;
     top: 0px;
     left: 0px;
     border: 0px;
     height: 0px;
-    width: max(6.67vw, 56.7px);
+    width: max(6.67vw, 35px);
     transition: height 1s;
     overflow: hidden;
     border-bottom-right-radius: max(0.83vw, 7.1px);
@@ -174,8 +213,8 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: max(2.08vw, 17.68px);
-  margin-top: max(2.08vw, 17.68px);
+  margin-left: max(2.08vw,9.125px);
+  margin-top: max(2.08vw, 9.125px);
   z-index: 100;
 }
 
@@ -199,6 +238,48 @@ p {
 /* Rotate last bar */
 .change .bar3 {
   transform: rotate(45deg) translate(min(-0.5vw, -3.25px), min(-0.5vw, -4.25px));
+}
+
+@media screen and (max-width: 675px) {
+  .home, .contact, .schedule {
+    width: 23px;
+    height: 23px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .menu {
+      height: 56px;
+      width: 23px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .food, .drink {
+      height: 15px;
+      width: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .closed {
+      height: 23px;
+  }
+  .home p, .contact p, .schedule p, .menu p {
+    display: none;
+  }
+  .home img, .contact img, .schedule img, .menu img {
+    display: block;
+    height: 20px;
+    width: 20px;
+    transition: .7s;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home img:hover, .contact img:hover, .schedule img:hover, .menu img:hover {
+      transform: scale(1.1, 1.1)
+  }
+  .food img, .drink img {
+      height: 15px;
+      width: 15px;
+  }
 }
 
 .ignore {

@@ -45,12 +45,22 @@
     h1 {
         font-size: 13vw;
         font-family: 'Miss Fajardose', cursive;
-        margin: 0px;
+        margin: auto;
     }
     .box {
         border-bottom: 0.16vw solid;
         height: 12.3vw;
         width: 82vw;
         position: relative;
+    }
+
+    @media screen and (max-width: 250px) {
+        h1 {
+            font-size: 10vw;
+        }
+        .box {
+            height: 9.3vw;
+            width: 63vw;
+        }
     }
 </style>
