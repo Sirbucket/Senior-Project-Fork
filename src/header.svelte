@@ -48,6 +48,7 @@
         font-size: 13vw;
         font-family: 'Miss Fajardose', cursive;
         margin: auto;
+        overflow-x: visible;
     }
     .box {
         border-bottom: 0.16vw solid;
@@ -56,7 +57,7 @@
         position: relative;
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 250px) {
         h1 {
             font-size: 10vw;
         }
