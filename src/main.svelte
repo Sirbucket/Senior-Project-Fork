@@ -18,24 +18,22 @@
         }
     }
 
+    $: iconColors = color
+    let color = 'Classy'
+
     function changeColor(event) {
         let newStyle = event.detail.newStyle
         let el = document.getElementById('base')
         let old = el.classList[0]
         if (old != newStyle) {
-            el.classList.remove(old)
-            el.classList.add(newStyle)
+            color = newStyle
         }
     }
-
-    let iconColors
-    let color = document.getElementById('base').classList[0]
-    $: console.log(color)
 </script>
 
-<section class="background">
+<section id="base" class={color}>
     <div class="header">
-    <Header on:pageChange={changePage} on:changeColor={changeColor} iconColors={color}/>
+    <Header on:pageChange={changePage} on:changeColor={changeColor} {iconColors}/>
     </div>
     <div class="content">
     <div id="home" class="active">

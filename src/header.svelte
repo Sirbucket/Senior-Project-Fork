@@ -20,6 +20,7 @@
     }
 
     export let iconColors
+    $: iconColors
 </script>
 
 <main class="background">

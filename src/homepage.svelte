@@ -1,6 +1,6 @@
 <script>
     export let sideColor
-    let srcSide = 'images/footsteps' + sideColor + '.png'
+    $: srcSide = 'images/footsteps' + sideColor + '.png'
 </script>
 
 <section class="background">

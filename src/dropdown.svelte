@@ -22,12 +22,13 @@
     }
 
     export let iconColors
-    let srcHome = 'images/homeIcon' + iconColors +'.png'
-    let srcMenu = 'images/menuIcon' + iconColors + '.png'
-    let srcFood = 'images/foodIcon' + iconColors + '.png'
-    let srcDrink = 'images/drinkIcon' + iconColors + '.png'
-    let srcCont = 'images/contactIcon' + iconColors + '.png'
-    let srcSched = 'images/scheduleIcon' + iconColors + '.png'
+    $: srcHome = 'images/homeIcon' + iconColors +'.png'
+    $: srcMenu = 'images/menuIcon' + iconColors + '.png'
+    $: srcFood = 'images/foodIcon' + iconColors + '.png'
+    $: srcDrink = 'images/drinkIcon' + iconColors + '.png'
+    $: srcCont = 'images/contactIcon' + iconColors + '.png'
+    $: srcSched = 'images/scheduleIcon' + iconColors + '.png'
+    $: console.log(iconColors)
 </script>
 
 <section id="test">
