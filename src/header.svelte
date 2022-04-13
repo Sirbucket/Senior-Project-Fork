@@ -18,10 +18,12 @@
             newStyle
         })
     }
+
+    export let iconColors
 </script>
 
 <main class="background">
-    <Dropdown on:pageChange={pageChange}/>
+    <Dropdown on:pageChange={pageChange} {iconColors}/>
     <div class="box text base">
         <h1>Kat's Contemporary Cafe</h1>
     </div>

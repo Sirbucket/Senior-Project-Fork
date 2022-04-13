@@ -21,37 +21,16 @@
         })
     }
 
-    let srcHome = 'images/homeIconClassy.png'
-    $: src1 = srcHome
-    let srcMenu = 'images/menuIconClassy.png'
-    $: src2 = srcMenu
-    let srcFood = 'images/foodIconClassy.png'
-    $: src3 = srcFood
-    let srcDrink = 'images/drinkIconClassy.png'
-    $: src4 = srcDrink
-    let srcCont = 'images/contactIconClassy.png'
-    $: src5 = srcCont
-    let srcSched = 'images/scheduleIconClassy.png'
-    $: src6 = srcSched
-    
-    let el
-    $: if (el) {
-        console.log(el.style.height)
-    }
-/*
-    $: if (el.style.height = '400px') {
-        srcHome = 'images/homeIconCozy.png'
-    } else if (el.style.height = '390px') {
-        srcHome = 'images/homeIconCool.png'
-    } else if (el.style.height = '380px') {
-        srcHome = 'images/homeIconCarefree.png'
-    } else {
-        srcHome = 'images/homeIconClassy.png'
-    }
-*/
+    export let iconColors
+    let srcHome = 'images/homeIcon' + iconColors +'.png'
+    let srcMenu = 'images/menuIcon' + iconColors + '.png'
+    let srcFood = 'images/foodIcon' + iconColors + '.png'
+    let srcDrink = 'images/drinkIcon' + iconColors + '.png'
+    let srcCont = 'images/contactIcon' + iconColors + '.png'
+    let srcSched = 'images/scheduleIcon' + iconColors + '.png'
 </script>
 
-<section id="test" bind:this={el}>
+<section id="test">
   <div id="dropdown" class="dropdown" on:click={navChange}>
       <div class="bar1"></div>
       <div class="bar2"></div>
@@ -213,7 +192,7 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: max(2.08vw,9.125px);
+  margin-left: max(2.08vw,8.125px);
   margin-top: max(2.08vw, 9.125px);
   z-index: 100;
 }
@@ -227,7 +206,7 @@ p {
 
 /* Rotate first bar */
 .change .bar1 {
-  transform: rotate(-45deg) translate(min(-0.5vw, -3.25px), max(0.5vw, 4.25px));
+  transform: rotate(-45deg) translate(min(-0.5vw, -3px), max(0.5vw, 4.25px));
 }
 
 /* Fade out the second bar */
@@ -237,7 +216,7 @@ p {
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: rotate(45deg) translate(min(-0.5vw, -3.25px), min(-0.5vw, -4.25px));
+  transform: rotate(45deg) translate(min(-0.5vw, -3px), min(-0.5vw, -4.25px));
 }
 
 @media screen and (max-width: 675px) {

@@ -1,5 +1,6 @@
 <script>
-
+    export let sideColor
+    let srcSide = 'images/footsteps' + sideColor + '.png'
 </script>
 
 <section class="background">
@@ -35,7 +36,7 @@
         </div>
     </div>
     <div class="righter">
-        <img id="footsteps" src="images/footsteps.png" class="footsteps" alt="footsteps">
+        <img id="footsteps" src={srcSide} class="footsteps" alt="footsteps">
     </div>
     </div>
     <div class="footer text base background">

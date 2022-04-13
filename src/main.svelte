@@ -27,15 +27,19 @@
             el.classList.add(newStyle)
         }
     }
+
+    let iconColors
+    let color = document.getElementById('base').classList[0]
+    $: console.log(color)
 </script>
 
 <section class="background">
     <div class="header">
-    <Header on:pageChange={changePage} on:changeColor={changeColor}/>
+    <Header on:pageChange={changePage} on:changeColor={changeColor} iconColors={color}/>
     </div>
     <div class="content">
     <div id="home" class="active">
-    <Homepage/>
+    <Homepage sideColor={color}/>
     </div>
     <div id="food" class="inactive">
     <Food/>

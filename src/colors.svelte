@@ -12,16 +12,16 @@
 
 <section>
   <div class="buttons">
-    <div id="classy" class="flexy accent">
+    <div id="Classy" class="flexy accent">
       <div class="classyB button" on:click={styleChange}></div>
     </div>
-    <div id="cozy" class="flexy accent">
+    <div id="Cozy" class="flexy accent">
       <div class="cozyB button" on:click={styleChange}></div>
     </div>
-    <div id="cool" class="flexy accent">
+    <div id="Cool" class="flexy accent">
       <div class="coolB button" on:click={styleChange}></div>
     </div>
-    <div id="carefree" class="flexy accent">
+    <div id="Carefree" class="flexy accent">
       <div class="carefreeB button" on:click={styleChange}></div>
     </div>
     <div class="tail">

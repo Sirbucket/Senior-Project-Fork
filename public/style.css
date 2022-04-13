@@ -13,125 +13,125 @@ body {
   width: 100vw;
 }
 
-.classy .base {
+.Classy .base {
   color: white;
   border-color: white;
 }
 
-.classy .background {
+.Classy .background {
   background-color: black;
 }
 
-.classy .accent {
+.Classy .accent {
   color: black;
   background-color: white;
 }
 
-.classy .colorTailLeft {
+.Classy .colorTailLeft {
   background-image: linear-gradient(to bottom right, white 50%, #00000000 50%);
 }
 
-.classy .colorTailRight {
+.Classy .colorTailRight {
   background-image: linear-gradient(to bottom left, white 50%, #00000000 50%);
 }
 
-.classy .bar1, .classy .bar2, .classy .bar3 {
+.Classy .bar1, .Classy .bar2, .Classy .bar3 {
   background-color: white;
 }
 
-.classy .change .bar1, .classy .change .bar3 {
+.Classy .change .bar1, .Classy .change .bar3 {
   background-color: black;
 }
 
 
-.cozy .base {
+.Cozy .base {
   color: #783f04;
   border-color: #783f04;
 }
 
-.cozy .background {
+.Cozy .background {
   background-color: #ead1dc;
 }
 
-.cozy .accent {
+.Cozy .accent {
   color: #ead1dc;
   background-color: #783f04;
 }
 
-.cozy .colorTailLeft {
+.Cozy .colorTailLeft {
   background-image: linear-gradient(to bottom right, #783f04 50%, #ead1dc 50%);
 }
 
-.cozy .colorTailRight {
+.Cozy .colorTailRight {
   background-image: linear-gradient(to bottom left, #783f04 50%, #ead1dc 50%);
 }
 
-.cozy .bar1, .cozy .bar2, .cozy .bar3 {
+.Cozy .bar1, .Cozy .bar2, .Cozy .bar3 {
   background-color: #783f04;
 }
 
-.cozy .change .bar1, .cozy .change .bar3 {
+.Cozy .change .bar1, .Cozy .change .bar3 {
   background-color: #ead1dc;
 }
 
 
-.cool .base {
+.Cool .base {
   color: silver;
   border-color: silver;
 }
 
-.cool .accent {
+.Cool .accent {
   color: #063970;
   background-color: silver;
 }
 
-.cool .background {
+.Cool .background {
   background-color: #063970;
 }
 
-.cool .colorTailLeft {
+.Cool .colorTailLeft {
   background-image: linear-gradient(to bottom right, silver 50%, #063970 50%);
 }
 
-.cool .colorTailRight {
+.Cool .colorTailRight {
   background-image: linear-gradient(to bottom left, silver 50%, #063970 50%);
 }
 
-.cool .bar1, .cool .bar2, .cool .bar3 {
+.Cool .bar1, .Cool .bar2, .Cool .bar3 {
   background-color: silver;
 }
 
-.cool .change .bar1, .cool .change .bar3 {
+.Cool .change .bar1, .Cool .change .bar3 {
   background-color: #063970;
 }
 
 
-.carefree .base {
+.Carefree .base {
   color: #f7ed98;
   border-color: #f7ed98;
 }
 
-.carefree .accent {
+.Carefree .accent {
   color: #368a3a;
   background-color: #f7ed98;
 }
 
-.carefree .background {
+.Carefree .background {
   background-color: #368a3a;
 }
 
-.carefree .colorTailLeft {
+.Carefree .colorTailLeft {
   background-image: linear-gradient(to bottom right, #f7ed98 50%, #368a3a 50%);
 }
 
-.carefree .colorTailRight {
+.Carefree .colorTailRight {
   background-image: linear-gradient(to bottom left, #f7ed98 50%, #368a3a 50%);
 }
 
-.carefree .bar1, .carefree .bar2, .carefree .bar3 {
+.Carefree .bar1, .Carefree .bar2, .Carefree .bar3 {
   background-color: #f7ed98;
 }
 
-.carefree .change .bar1, .carefree .change .bar3 {
+.Carefree .change .bar1, .Carefree .change .bar3 {
   background-color: #368a3a;
 }
