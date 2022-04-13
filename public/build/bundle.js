@@ -978,11 +978,11 @@ var app = (function () {
     			h1.textContent = "Kat's Contemporary Cafe";
     			t2 = space();
     			create_component(colors.$$.fragment);
-    			attr_dev(h1, "class", "svelte-16x3721");
+    			attr_dev(h1, "class", "svelte-c2xplv");
     			add_location(h1, file$6, 27, 8, 686);
-    			attr_dev(div, "class", "box text base svelte-16x3721");
+    			attr_dev(div, "class", "box text base svelte-c2xplv");
     			add_location(div, file$6, 26, 4, 649);
-    			attr_dev(main, "class", "background svelte-16x3721");
+    			attr_dev(main, "class", "background svelte-c2xplv");
     			add_location(main, file$6, 24, 0, 561);
     		},
     		l: function claim(nodes) {

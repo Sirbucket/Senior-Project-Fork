@@ -56,7 +56,7 @@
         position: relative;
     }
 
-    @media screen and (max-width: 250px) {
+    @media screen and (max-width: 375px) {
         h1 {
             font-size: 10vw;
         }
