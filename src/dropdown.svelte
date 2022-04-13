@@ -37,7 +37,7 @@
       <div class="bar2"></div>
       <div class="bar3"></div>
   </div>
-  <div class="stuff accent">
+  <div class="stuff accent text">
     <div class="home hidden" on:click={pageChange}>
         <p>Home</p>
         <img src={srcHome} alt="Home">
@@ -75,6 +75,10 @@ section {
     align-items: start;
 }
 
+.text {
+    font-family: 'Comfortaa', cursive;
+}
+
 section.opened {
     height: 90vh;
 }
@@ -86,7 +90,7 @@ section.opened {
     margin-bottom: max(0.83vw, 7.1px);
     width: 6.67vw;
     height: 3.08vw;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -180,7 +184,7 @@ p {
     height: max(1.5vw, 12.75px);
     width: max(7.5vw, 63.75px);
     display: flex;
-    font-size: max(1.36vw, 11.56px);
+    font-size: max(1.1vw, 11.56px);
 }
 
 .dropdown {

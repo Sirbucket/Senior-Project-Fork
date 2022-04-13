@@ -52,7 +52,7 @@
         overflow-x: visible;
     }
     .box {
-        border-bottom: 0.16vw solid;
+        border-bottom: 0.2vw solid;
         height: 12.3vw;
         width: 82vw;
         position: relative;

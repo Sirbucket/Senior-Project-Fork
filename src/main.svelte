@@ -20,18 +20,18 @@
 
     $: iconColors = color
     let color = 'Classy'
+    let base
 
     function changeColor(event) {
         let newStyle = event.detail.newStyle
-        let el = document.getElementById('base')
-        let old = el.classList[0]
+        let old = base.classList[0]
         if (old != newStyle) {
             color = newStyle
         }
     }
 </script>
 
-<section id="base" class={color}>
+<section id="base" bind:this={base} class={color}>
     <div class="header">
     <Header on:pageChange={changePage} on:changeColor={changeColor} {iconColors}/>
     </div>

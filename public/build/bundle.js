@@ -695,75 +695,75 @@ var app = (function () {
     			t21 = space();
     			section0 = element("section");
     			div11 = element("div");
-    			attr_dev(div0, "class", "bar1 svelte-1pl1yhp");
+    			attr_dev(div0, "class", "bar1 svelte-dljkuk");
     			add_location(div0, file$7, 35, 6, 1149);
-    			attr_dev(div1, "class", "bar2 svelte-1pl1yhp");
+    			attr_dev(div1, "class", "bar2 svelte-dljkuk");
     			add_location(div1, file$7, 36, 6, 1181);
-    			attr_dev(div2, "class", "bar3 svelte-1pl1yhp");
+    			attr_dev(div2, "class", "bar3 svelte-dljkuk");
     			add_location(div2, file$7, 37, 6, 1213);
     			attr_dev(div3, "id", "dropdown");
-    			attr_dev(div3, "class", "dropdown svelte-1pl1yhp");
+    			attr_dev(div3, "class", "dropdown svelte-dljkuk");
     			add_location(div3, file$7, 34, 2, 1084);
-    			attr_dev(p0, "class", "svelte-1pl1yhp");
-    			add_location(p0, file$7, 41, 8, 1340);
+    			attr_dev(p0, "class", "svelte-dljkuk");
+    			add_location(p0, file$7, 41, 8, 1345);
     			if (!src_url_equal(img0.src, img0_src_value = /*srcHome*/ ctx[5])) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "Home");
-    			attr_dev(img0, "class", "svelte-1pl1yhp");
-    			add_location(img0, file$7, 42, 8, 1361);
-    			attr_dev(div4, "class", "home hidden svelte-1pl1yhp");
-    			add_location(div4, file$7, 40, 4, 1283);
-    			attr_dev(p1, "class", "svelte-1pl1yhp");
-    			add_location(p1, file$7, 45, 8, 1464);
+    			attr_dev(img0, "class", "svelte-dljkuk");
+    			add_location(img0, file$7, 42, 8, 1366);
+    			attr_dev(div4, "class", "home hidden svelte-dljkuk");
+    			add_location(div4, file$7, 40, 4, 1288);
+    			attr_dev(p1, "class", "svelte-dljkuk");
+    			add_location(p1, file$7, 45, 8, 1469);
     			if (!src_url_equal(img1.src, img1_src_value = /*srcMenu*/ ctx[4])) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "Menu");
-    			attr_dev(img1, "class", "svelte-1pl1yhp");
-    			add_location(img1, file$7, 46, 8, 1505);
-    			attr_dev(p2, "class", "svelte-1pl1yhp");
-    			add_location(p2, file$7, 48, 12, 1632);
+    			attr_dev(img1, "class", "svelte-dljkuk");
+    			add_location(img1, file$7, 46, 8, 1510);
+    			attr_dev(p2, "class", "svelte-dljkuk");
+    			add_location(p2, file$7, 48, 12, 1637);
     			if (!src_url_equal(img2.src, img2_src_value = /*srcFood*/ ctx[3])) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "Food");
-    			attr_dev(img2, "class", "svelte-1pl1yhp");
-    			add_location(img2, file$7, 49, 12, 1657);
+    			attr_dev(img2, "class", "svelte-dljkuk");
+    			add_location(img2, file$7, 49, 12, 1662);
     			attr_dev(div5, "id", "navFood");
-    			attr_dev(div5, "class", "food svelte-1pl1yhp");
-    			add_location(div5, file$7, 47, 8, 1565);
-    			attr_dev(p3, "class", "svelte-1pl1yhp");
-    			add_location(p3, file$7, 52, 12, 1782);
+    			attr_dev(div5, "class", "food svelte-dljkuk");
+    			add_location(div5, file$7, 47, 8, 1570);
+    			attr_dev(p3, "class", "svelte-dljkuk");
+    			add_location(p3, file$7, 52, 12, 1787);
     			if (!src_url_equal(img3.src, img3_src_value = /*srcDrink*/ ctx[2])) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "Drink");
-    			attr_dev(img3, "class", "svelte-1pl1yhp");
-    			add_location(img3, file$7, 53, 12, 1809);
+    			attr_dev(img3, "class", "svelte-dljkuk");
+    			add_location(img3, file$7, 53, 12, 1814);
     			attr_dev(div6, "id", "navDrink");
-    			attr_dev(div6, "class", "drink svelte-1pl1yhp");
-    			add_location(div6, file$7, 51, 8, 1713);
+    			attr_dev(div6, "class", "drink svelte-dljkuk");
+    			add_location(div6, file$7, 51, 8, 1718);
     			attr_dev(div7, "id", "navMenu");
-    			attr_dev(div7, "class", "menu hidden closed svelte-1pl1yhp");
-    			add_location(div7, file$7, 44, 4, 1409);
-    			add_location(br, file$7, 57, 18, 1945);
-    			attr_dev(p4, "class", "svelte-1pl1yhp");
-    			add_location(p4, file$7, 57, 8, 1935);
+    			attr_dev(div7, "class", "menu hidden closed svelte-dljkuk");
+    			add_location(div7, file$7, 44, 4, 1414);
+    			add_location(br, file$7, 57, 18, 1950);
+    			attr_dev(p4, "class", "svelte-dljkuk");
+    			add_location(p4, file$7, 57, 8, 1940);
     			if (!src_url_equal(img4.src, img4_src_value = /*srcCont*/ ctx[1])) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "Contact");
-    			attr_dev(img4, "class", "svelte-1pl1yhp");
-    			add_location(img4, file$7, 58, 8, 1965);
-    			attr_dev(div8, "class", "contact hidden svelte-1pl1yhp");
-    			add_location(div8, file$7, 56, 4, 1875);
-    			attr_dev(p5, "class", "svelte-1pl1yhp");
-    			add_location(p5, file$7, 61, 8, 2077);
+    			attr_dev(img4, "class", "svelte-dljkuk");
+    			add_location(img4, file$7, 58, 8, 1970);
+    			attr_dev(div8, "class", "contact hidden svelte-dljkuk");
+    			add_location(div8, file$7, 56, 4, 1880);
+    			attr_dev(p5, "class", "svelte-dljkuk");
+    			add_location(p5, file$7, 61, 8, 2082);
     			if (!src_url_equal(img5.src, img5_src_value = /*srcSched*/ ctx[0])) attr_dev(img5, "src", img5_src_value);
     			attr_dev(img5, "alt", "Schedule");
-    			attr_dev(img5, "class", "svelte-1pl1yhp");
-    			add_location(img5, file$7, 62, 8, 2102);
-    			attr_dev(div9, "class", "schedule hidden svelte-1pl1yhp");
-    			add_location(div9, file$7, 60, 4, 2016);
-    			attr_dev(div10, "class", "stuff accent svelte-1pl1yhp");
+    			attr_dev(img5, "class", "svelte-dljkuk");
+    			add_location(img5, file$7, 62, 8, 2107);
+    			attr_dev(div9, "class", "schedule hidden svelte-dljkuk");
+    			add_location(div9, file$7, 60, 4, 2021);
+    			attr_dev(div10, "class", "stuff accent text svelte-dljkuk");
     			add_location(div10, file$7, 39, 2, 1251);
-    			attr_dev(div11, "class", "bar1 bar2 bar3 stuff svelte-1pl1yhp");
-    			add_location(div11, file$7, 66, 6, 2217);
-    			attr_dev(section0, "class", "ignore visible opened change svelte-1pl1yhp");
-    			add_location(section0, file$7, 65, 2, 2163);
+    			attr_dev(div11, "class", "bar1 bar2 bar3 stuff svelte-dljkuk");
+    			add_location(div11, file$7, 66, 6, 2222);
+    			attr_dev(section0, "class", "ignore visible opened change svelte-dljkuk");
+    			add_location(section0, file$7, 65, 2, 2168);
     			attr_dev(section1, "id", "test");
-    			attr_dev(section1, "class", "svelte-1pl1yhp");
+    			attr_dev(section1, "class", "svelte-dljkuk");
     			add_location(section1, file$7, 33, 0, 1061);
     		},
     		l: function claim(nodes) {
@@ -1037,11 +1037,11 @@ var app = (function () {
     			h1.textContent = "Kat's Contemporary Cafe";
     			t2 = space();
     			create_component(colors.$$.fragment);
-    			attr_dev(h1, "class", "svelte-1ru3cat");
+    			attr_dev(h1, "class", "svelte-14aiym8");
     			add_location(h1, file$6, 28, 8, 705);
-    			attr_dev(div, "class", "box text base svelte-1ru3cat");
+    			attr_dev(div, "class", "box text base svelte-14aiym8");
     			add_location(div, file$6, 27, 4, 668);
-    			attr_dev(main, "class", "background svelte-1ru3cat");
+    			attr_dev(main, "class", "background svelte-14aiym8");
     			add_location(main, file$6, 25, 0, 580);
     		},
     		l: function claim(nodes) {
@@ -2304,12 +2304,12 @@ var app = (function () {
     	let current;
 
     	header = new Header({
-    			props: { iconColors: /*iconColors*/ ctx[1] },
+    			props: { iconColors: /*iconColors*/ ctx[2] },
     			$$inline: true
     		});
 
     	header.$on("pageChange", changePage);
-    	header.$on("changeColor", /*changeColor*/ ctx[2]);
+    	header.$on("changeColor", /*changeColor*/ ctx[3]);
 
     	homepage = new Homepage({
     			props: { sideColor: /*color*/ ctx[0] },
@@ -2343,27 +2343,27 @@ var app = (function () {
     			div5 = element("div");
     			create_component(schedule.$$.fragment);
     			attr_dev(div0, "class", "header svelte-pbzasp");
-    			add_location(div0, file, 34, 4, 1061);
+    			add_location(div0, file, 34, 4, 1044);
     			attr_dev(div1, "id", "home");
     			attr_dev(div1, "class", "active svelte-pbzasp");
-    			add_location(div1, file, 38, 4, 1210);
+    			add_location(div1, file, 38, 4, 1193);
     			attr_dev(div2, "id", "food");
     			attr_dev(div2, "class", "inactive svelte-pbzasp");
-    			add_location(div2, file, 41, 4, 1293);
+    			add_location(div2, file, 41, 4, 1276);
     			attr_dev(div3, "id", "drink");
     			attr_dev(div3, "class", "inactive svelte-pbzasp");
-    			add_location(div3, file, 44, 4, 1356);
+    			add_location(div3, file, 44, 4, 1339);
     			attr_dev(div4, "id", "contact");
     			attr_dev(div4, "class", "inactive svelte-pbzasp");
-    			add_location(div4, file, 47, 4, 1421);
+    			add_location(div4, file, 47, 4, 1404);
     			attr_dev(div5, "id", "schedule");
     			attr_dev(div5, "class", "inactive svelte-pbzasp");
-    			add_location(div5, file, 50, 4, 1490);
+    			add_location(div5, file, 50, 4, 1473);
     			attr_dev(div6, "class", "content");
-    			add_location(div6, file, 37, 4, 1183);
+    			add_location(div6, file, 37, 4, 1166);
     			attr_dev(section, "id", "base");
     			attr_dev(section, "class", section_class_value = "" + (null_to_empty(/*color*/ ctx[0]) + " svelte-pbzasp"));
-    			add_location(section, file, 33, 0, 1022);
+    			add_location(section, file, 33, 0, 988);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2388,11 +2388,12 @@ var app = (function () {
     			append_dev(div6, t4);
     			append_dev(div6, div5);
     			mount_component(schedule, div5, null);
+    			/*section_binding*/ ctx[4](section);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
     			const header_changes = {};
-    			if (dirty & /*iconColors*/ 2) header_changes.iconColors = /*iconColors*/ ctx[1];
+    			if (dirty & /*iconColors*/ 4) header_changes.iconColors = /*iconColors*/ ctx[2];
     			header.$set(header_changes);
     			const homepage_changes = {};
     			if (dirty & /*color*/ 1) homepage_changes.sideColor = /*color*/ ctx[0];
@@ -2429,6 +2430,7 @@ var app = (function () {
     			destroy_component(drink);
     			destroy_component(contact);
     			destroy_component(schedule);
+    			/*section_binding*/ ctx[4](null);
     		}
     	};
 
@@ -2461,11 +2463,11 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Main', slots, []);
     	let color = 'Classy';
+    	let base;
 
     	function changeColor(event) {
     		let newStyle = event.detail.newStyle;
-    		let el = document.getElementById('base');
-    		let old = el.classList[0];
+    		let old = base.classList[0];
 
     		if (old != newStyle) {
     			$$invalidate(0, color = newStyle);
@@ -2478,6 +2480,13 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Main> was created with unknown prop '${key}'`);
     	});
 
+    	function section_binding($$value) {
+    		binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+    			base = $$value;
+    			$$invalidate(1, base);
+    		});
+    	}
+
     	$$self.$capture_state = () => ({
     		Header,
     		Homepage,
@@ -2487,13 +2496,15 @@ var app = (function () {
     		Schedule,
     		changePage,
     		color,
+    		base,
     		changeColor,
     		iconColors
     	});
 
     	$$self.$inject_state = $$props => {
     		if ('color' in $$props) $$invalidate(0, color = $$props.color);
-    		if ('iconColors' in $$props) $$invalidate(1, iconColors = $$props.iconColors);
+    		if ('base' in $$props) $$invalidate(1, base = $$props.base);
+    		if ('iconColors' in $$props) $$invalidate(2, iconColors = $$props.iconColors);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -2502,11 +2513,11 @@ var app = (function () {
 
     	$$self.$$.update = () => {
     		if ($$self.$$.dirty & /*color*/ 1) {
-    			$$invalidate(1, iconColors = color);
+    			$$invalidate(2, iconColors = color);
     		}
     	};
 
-    	return [color, iconColors, changeColor];
+    	return [color, base, iconColors, changeColor, section_binding];
     }
 
     class Main extends SvelteComponentDev {
