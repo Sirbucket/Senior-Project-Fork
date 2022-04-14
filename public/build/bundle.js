@@ -2003,7 +2003,7 @@ var app = (function () {
     		c: function create() {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/footstepsClassy.png")) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "footsteps svelte-4spa1i");
+    			attr_dev(img, "class", "footsteps svelte-nuj01u");
     			attr_dev(img, "alt", "footsteps");
     			add_location(img, file$5, 44, 8, 1836);
     		},
@@ -2035,7 +2035,7 @@ var app = (function () {
     		c: function create() {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/footstepsCarefree.png")) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "footsteps svelte-4spa1i");
+    			attr_dev(img, "class", "footsteps svelte-nuj01u");
     			attr_dev(img, "alt", "footsteps");
     			add_location(img, file$5, 42, 8, 1735);
     		},
@@ -2067,7 +2067,7 @@ var app = (function () {
     		c: function create() {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/footstepsCool.png")) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "footsteps svelte-4spa1i");
+    			attr_dev(img, "class", "footsteps svelte-nuj01u");
     			attr_dev(img, "alt", "footsteps");
     			add_location(img, file$5, 40, 8, 1609);
     		},
@@ -2099,7 +2099,7 @@ var app = (function () {
     		c: function create() {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/footstepsCozy.png")) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "footsteps svelte-4spa1i");
+    			attr_dev(img, "class", "footsteps svelte-nuj01u");
     			attr_dev(img, "alt", "footsteps");
     			add_location(img, file$5, 38, 8, 1487);
     		},
@@ -2231,63 +2231,63 @@ var app = (function () {
     			div10 = element("div");
     			p7 = element("p");
     			p7.textContent = "Kat's Contemporary Cafe | xxx-xxx-xxxx | xxx-xxx@gmail.com | 72 Tyng Rd, Tyngsboro, Massachusetts";
-    			attr_dev(h20, "class", "svelte-4spa1i");
+    			attr_dev(h20, "class", "svelte-nuj01u");
     			add_location(h20, file$5, 8, 12, 178);
-    			attr_dev(p0, "class", "svelte-4spa1i");
+    			attr_dev(p0, "class", "svelte-nuj01u");
     			add_location(p0, file$5, 9, 12, 214);
-    			attr_dev(div0, "class", "about text svelte-4spa1i");
+    			attr_dev(div0, "class", "about text svelte-nuj01u");
     			add_location(div0, file$5, 7, 8, 140);
     			if (!src_url_equal(img0.src, img0_src_value = "images/iacs1.jpg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "cool food :)");
-    			attr_dev(img0, "class", "svelte-4spa1i");
+    			attr_dev(img0, "class", "svelte-nuj01u");
     			add_location(img0, file$5, 12, 8, 465);
-    			attr_dev(div1, "class", "image accent svelte-4spa1i");
+    			attr_dev(div1, "class", "image accent svelte-nuj01u");
     			add_location(div1, file$5, 11, 8, 429);
-    			attr_dev(h21, "class", "svelte-4spa1i");
+    			attr_dev(h21, "class", "svelte-nuj01u");
     			add_location(h21, file$5, 15, 12, 575);
-    			attr_dev(p1, "class", "svelte-4spa1i");
+    			attr_dev(p1, "class", "svelte-nuj01u");
     			add_location(p1, file$5, 16, 12, 614);
-    			attr_dev(div2, "class", "help text svelte-4spa1i");
+    			attr_dev(div2, "class", "help text svelte-nuj01u");
     			add_location(div2, file$5, 14, 8, 538);
-    			attr_dev(div3, "class", "left base svelte-4spa1i");
+    			attr_dev(div3, "class", "left base svelte-nuj01u");
     			add_location(div3, file$5, 6, 4, 107);
     			if (!src_url_equal(img1.src, img1_src_value = "images/logo.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "cool logo :)");
-    			attr_dev(img1, "class", "svelte-4spa1i");
+    			attr_dev(img1, "class", "svelte-nuj01u");
     			add_location(img1, file$5, 22, 8, 959);
-    			attr_dev(div4, "class", "image accent svelte-4spa1i");
+    			attr_dev(div4, "class", "image accent svelte-nuj01u");
     			add_location(div4, file$5, 21, 8, 923);
-    			attr_dev(h22, "class", "svelte-4spa1i");
+    			attr_dev(h22, "class", "svelte-nuj01u");
     			add_location(h22, file$5, 25, 12, 1072);
-    			attr_dev(p2, "class", "svelte-4spa1i");
+    			attr_dev(p2, "class", "svelte-nuj01u");
     			add_location(p2, file$5, 26, 12, 1104);
-    			attr_dev(p3, "class", "svelte-4spa1i");
+    			attr_dev(p3, "class", "svelte-nuj01u");
     			add_location(p3, file$5, 27, 12, 1135);
-    			attr_dev(p4, "class", "svelte-4spa1i");
+    			attr_dev(p4, "class", "svelte-nuj01u");
     			add_location(p4, file$5, 28, 12, 1180);
-    			attr_dev(p5, "class", "svelte-4spa1i");
+    			attr_dev(p5, "class", "svelte-nuj01u");
     			add_location(p5, file$5, 29, 12, 1213);
-    			attr_dev(p6, "class", "svelte-4spa1i");
+    			attr_dev(p6, "class", "svelte-nuj01u");
     			add_location(p6, file$5, 30, 12, 1251);
-    			attr_dev(div5, "class", "location text svelte-4spa1i");
+    			attr_dev(div5, "class", "location text svelte-nuj01u");
     			add_location(div5, file$5, 24, 8, 1031);
     			if (!src_url_equal(img2.src, img2_src_value = "images/iacs2.jpg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "cool food :)");
-    			attr_dev(img2, "class", "svelte-4spa1i");
+    			attr_dev(img2, "class", "svelte-nuj01u");
     			add_location(img2, file$5, 33, 8, 1338);
-    			attr_dev(div6, "class", "image accent svelte-4spa1i");
+    			attr_dev(div6, "class", "image accent svelte-nuj01u");
     			add_location(div6, file$5, 32, 8, 1302);
-    			attr_dev(div7, "class", "right base svelte-4spa1i");
+    			attr_dev(div7, "class", "right base svelte-nuj01u");
     			add_location(div7, file$5, 20, 4, 889);
-    			attr_dev(div8, "class", "righter svelte-4spa1i");
+    			attr_dev(div8, "class", "righter svelte-nuj01u");
     			add_location(div8, file$5, 36, 4, 1419);
-    			attr_dev(div9, "class", "main svelte-4spa1i");
+    			attr_dev(div9, "class", "main svelte-nuj01u");
     			add_location(div9, file$5, 5, 4, 83);
-    			attr_dev(p7, "class", "svelte-4spa1i");
+    			attr_dev(p7, "class", "svelte-nuj01u");
     			add_location(p7, file$5, 49, 8, 2004);
-    			attr_dev(div10, "class", "footer text base background svelte-4spa1i");
+    			attr_dev(div10, "class", "footer text base background svelte-nuj01u");
     			add_location(div10, file$5, 48, 4, 1953);
-    			attr_dev(section, "class", "background svelte-4spa1i");
+    			attr_dev(section, "class", "background svelte-nuj01u");
     			add_location(section, file$5, 4, 0, 49);
     		},
     		l: function claim(nodes) {

@@ -166,6 +166,7 @@
             width: 39.83vw;
             margin-top: 5vw;
             margin-bottom: 5vw;
+            text-align: right;
         }
 
         .left img, .right img {
