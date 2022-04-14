@@ -64,7 +64,7 @@
         }
         .box {
             height: 9.3vw;
-            width: 63vw;
+            width: 80vw;
         }
     }
 </style>
