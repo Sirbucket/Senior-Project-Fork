@@ -46,7 +46,7 @@
         margin-top: 1.66vw;
     }
     h1 {
-        font-size: 6vw;
+        font-size: 13vw;
         font-family: 'Miss Fajardose', cursive;
         margin: auto;
         overflow-x: visible;
@@ -58,7 +58,7 @@
         position: relative;
     }
 
-    @media screen and (max-width: 250px) {
+    @media screen and (max-width: 350px) {
         h1 {
             font-size: 10vw;
         }

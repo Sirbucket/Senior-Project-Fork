@@ -1856,11 +1856,11 @@ var app = (function () {
     			h1.textContent = "Kat's Contemporary Cafe";
     			t2 = space();
     			create_component(colors.$$.fragment);
-    			attr_dev(h1, "class", "svelte-wonk6");
+    			attr_dev(h1, "class", "svelte-7cpdab");
     			add_location(h1, file$6, 28, 8, 705);
-    			attr_dev(div, "class", "box text base svelte-wonk6");
+    			attr_dev(div, "class", "box text base svelte-7cpdab");
     			add_location(div, file$6, 27, 4, 668);
-    			attr_dev(main, "class", "background svelte-wonk6");
+    			attr_dev(main, "class", "background svelte-7cpdab");
     			add_location(main, file$6, 25, 0, 580);
     		},
     		l: function claim(nodes) {
