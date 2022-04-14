@@ -1,6 +1,5 @@
 <script>
     export let sideColor
-    $: srcSide = 'images/footsteps' + sideColor + '.png'
 </script>
 
 <section class="background">
@@ -36,7 +35,15 @@
         </div>
     </div>
     <div class="righter">
-        <img id="footsteps" src={srcSide} class="footsteps" alt="footsteps">
+        {#if (sideColor == 'Cozy')}
+        <img src='images/footstepsCozy.png' class='footsteps' alt='footsteps'>
+        {:else if (sideColor == 'Cool')}
+        <img src='images/footstepsCool.png' class='footsteps' alt='footsteps'>
+        {:else if (sideColor == 'Carefree')}
+        <img src='images/footstepsCarefree.png' class='footsteps' alt='footsteps'>
+        {:else}
+        <img src='images/footstepsClassy.png' class='footsteps' alt='footsteps'>
+        {/if}
     </div>
     </div>
     <div class="footer text base background">

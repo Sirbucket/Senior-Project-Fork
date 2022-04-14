@@ -22,13 +22,6 @@
     }
 
     export let iconColors
-    $: srcHome = 'images/homeIcon' + iconColors +'.png'
-    $: srcMenu = 'images/menuIcon' + iconColors + '.png'
-    $: srcFood = 'images/foodIcon' + iconColors + '.png'
-    $: srcDrink = 'images/drinkIcon' + iconColors + '.png'
-    $: srcCont = 'images/contactIcon' + iconColors + '.png'
-    $: srcSched = 'images/scheduleIcon' + iconColors + '.png'
-    $: console.log(iconColors)
 </script>
 
 <section id="test">
@@ -40,27 +33,75 @@
   <div class="stuff accent text">
     <div class="home hidden" on:click={pageChange}>
         <p>Home</p>
-        <img src={srcHome} alt="Home">
+        {#if (iconColors == 'Cozy')}
+        <img src='images/homeIconCozy.png' alt="Home">
+        {:else if (iconColors == 'Cool')}
+        <img src='images/homeIconCool.png' alt="Home">
+        {:else if (iconColors == 'Carefree')}
+        <img src='images/homeIconCarefree.png' alt="Home">
+        {:else}
+        <img src='images/homeIconClassy.png' alt="Home">
+        {/if}
     </div>
     <div id="navMenu" class="menu hidden closed">
         <p on:click={menuOpen}>Menu</p>
-        <img src={srcMenu} on:click={menuOpen} alt="Menu">
+        {#if (iconColors == 'Cozy')}
+        <img src='images/menuIconCozy.png' on:click={menuOpen} alt="Menu">
+        {:else if (iconColors == 'Cool')}
+        <img src='images/menuIconCool.png' on:click={menuOpen} alt="Menu">
+        {:else if (iconColors == 'Carefree')}
+        <img src='images/menuIconCarefree.png' on:click={menuOpen} alt="Menu">
+        {:else}
+        <img src='images/menuIconClassy.png' on:click={menuOpen} alt="Menu">
+        {/if}
         <div id="navFood" class="food" on:click={pageChange}>
             <p>Food</p>
-            <img src={srcFood} alt="Food">
+            {#if (iconColors == 'Cozy')}
+            <img src='images/foodIconCozy.png' alt="Food">
+            {:else if (iconColors == 'Cool')}
+            <img src='images/foodIconCool.png' alt="Food">
+            {:else if (iconColors == 'Carefree')}
+            <img src='images/foodIconCarefree.png' alt="Food">
+            {:else}
+            <img src='images/foodIconClassy.png' alt="Food">
+            {/if}
         </div>
         <div id="navDrink" class="drink" on:click={pageChange}>
             <p>Drinks</p>
-            <img src={srcDrink} alt="Drink">
+            {#if (iconColors == 'Cozy')}
+            <img src='images/drinkIconCozy.png' alt="Drink">
+            {:else if (iconColors == 'Cool')}
+            <img src='images/drinkIconCool.png' alt="Drink">
+            {:else if (iconColors == 'Carefree')}
+            <img src='images/drinkIconCarefree.png' alt="Drink">
+            {:else}
+            <img src='images/drinkIconClassy.png' alt="Drink">
+            {/if}
         </div>
     </div>
     <div class="contact hidden" on:click={pageChange}>
         <p>Contact<br>Us</p>
-        <img src={srcCont} alt="Contact">
+        {#if (iconColors == 'Cozy')}
+        <img src='images/contactIconCozy.png' alt="Contact">
+        {:else if (iconColors == 'Cool')}
+        <img src='images/contactIconCool.png' alt="Contact">
+        {:else if (iconColors == 'Carefree')}
+        <img src='images/contactIconCarefree.png' alt="Contact">
+        {:else}
+        <img src='images/contactIconClassy.png' alt="Contact">
+        {/if}
     </div>
     <div class="schedule hidden" on:click={pageChange}>
         <p>Schedule</p>
-        <img src={srcSched} alt="Schedule">
+        {#if (iconColors == 'Cozy')}
+        <img src='images/scheduleIconCozy.png' alt="Schedule">
+        {:else if (iconColors == 'Cool')}
+        <img src='images/scheduleIconCool.png' alt="Schedule">
+        {:else if (iconColors == 'Carefree')}
+        <img src='images/scheduleIconCarefree.png' alt="Schedule">
+        {:else}
+        <img src='images/scheduleIconClassy.png' alt="Schedule">
+        {/if}
     </div>
   </div>
   <section class="ignore visible opened change">
