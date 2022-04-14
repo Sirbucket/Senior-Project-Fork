@@ -63,8 +63,8 @@
             font-size: 11vw;
         }
         .box {
-            height: 9.3vw;
-            width: 80vw;
+            height: 10vw;
+            width: 79.2vw;
         }
     }
 </style>
