@@ -58,13 +58,13 @@
         position: relative;
     }
 
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 400px) {
         h1 {
             font-size: 11vw;
         }
         .box {
             height: 10vw;
-            width: 79.2vw;
+            width: 80vw;
         }
     }
 </style>
