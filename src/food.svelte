@@ -96,10 +96,33 @@
 
     .img img {
         width: max(12.5vw, 75px);
-        height: max(7.67vw, 46.02px);
+        height: max(7.67vw, 46px);
         margin-top: max(0.42vw, 2.5px);
         margin-left: max(0.42vw, 2.5px);
         margin-right: max(0.42vw, 2.5px);
+    }
+
+    @media screen and (max-width: 600px) {
+        .item .info {
+            width: 55%;
+        }
+        h2 {
+            font-size: max(2vw, 15px);
+        }
+        p {
+            font-size: max(1.5vw, 12px);
+        }
+        .img {
+            height: max(10vw, 70px);
+            width: max(13.33vw, 90px);
+        }
+        .img img {
+            width: max(12.5vw, 85px);
+            height: max(7.67vw, 56px);
+            margin-top: max(0.42vw, 2.5px);
+            margin-left: max(0.42vw, 2.5px);
+            margin-right: max(0.42vw, 2.5px);
+        }
     }
 
     .footer {

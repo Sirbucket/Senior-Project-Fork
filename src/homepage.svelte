@@ -166,6 +166,9 @@
             width: 39.83vw;
             margin-top: 5vw;
             margin-bottom: 5vw;
+        }
+
+        .right {
             text-align: right;
         }
 
