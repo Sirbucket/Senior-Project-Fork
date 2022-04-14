@@ -60,7 +60,7 @@
 
     @media screen and (max-width: 450px) {
         h1 {
-            font-size: 11vw;
+            font-size: 12vw;
         }
         .box {
             height: 9.3vw;
