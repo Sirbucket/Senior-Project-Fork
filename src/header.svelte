@@ -46,7 +46,7 @@
         margin-top: 1.66vw;
     }
     h1 {
-        font-size: 13vw;
+        font-size: 6vw;
         font-family: 'Miss Fajardose', cursive;
         margin: auto;
         overflow-x: visible;
