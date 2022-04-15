@@ -36,13 +36,13 @@
     </div>
     <div class="righter">
         {#if (sideColor == 'Cozy')}
-        <img src='images/footstepsCozy.png' class='footsteps' alt='footsteps'>
+        <img src='images/catgirlCozy.png' class='catgirl' alt='catgirl'>
         {:else if (sideColor == 'Cool')}
-        <img src='images/footstepsCool.png' class='footsteps' alt='footsteps'>
+        <img src='images/catgirlCool.png' class='catgirl' alt='catgirl'>
         {:else if (sideColor == 'Carefree')}
-        <img src='images/footstepsCarefree.png' class='footsteps' alt='footsteps'>
+        <img src='images/catgirlCarefree.png' class='catgirl' alt='catgirl'>
         {:else}
-        <img src='images/footstepsClassy.png' class='footsteps' alt='footsteps'>
+        <img src='images/catgirlClassy.png' class='catgirl' alt='catgirl'>
         {/if}
     </div>
     </div>
@@ -144,8 +144,15 @@
         align-items: start;
     }
 
-    .righter, .footsteps {
-        width: 16.66vw;
+    .righter, .catgirl {
+        width: 20vw;
+    }
+
+    .catgirl {
+        position: fixed;
+        bottom: 55px;
+        z-index: 101;
+        pointer-events: none;
     }
 
     @media screen and (max-width: 600px) {
@@ -187,7 +194,7 @@
             margin-bottom: 3.75vw;
         }
 
-        .righter, .footsteps {
+        .righter, .catgirl {
             width: 0px;
             display: none;
         }
