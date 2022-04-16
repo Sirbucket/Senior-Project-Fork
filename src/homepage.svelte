@@ -145,12 +145,12 @@
     }
 
     .righter, .catgirl {
-        width: 20vw;
+        width: 19.5vw;
     }
 
     .catgirl {
         position: fixed;
-        bottom: 55px;
+        top: 16vw;
         z-index: 101;
         pointer-events: none;
     }
@@ -201,11 +201,16 @@
     }
 
     .footer {
-        height: 17px;
+        height: 5.4vh;
         width: 85vw;
         border-top: 0.08vw solid;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 0px;
         text-align: center;
+    }
+    .footer p {
+        margin-top: 1.35vh;
+        margin-bottom: 1.35vh;
     }
 </style>

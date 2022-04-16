@@ -101,12 +101,16 @@
     }
 
     .footer {
-        height: 1.42vw;
+        height: 5.4vh;
         width: 85vw;
         border-top: 0.08vw solid;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 0px;
         text-align: center;
-        font-size: max(1.5vw, 12px);
+    }
+    .footer p {
+        margin-top: 1.35vh;
+        margin-bottom: 1.35vh;
     }
 </style>
