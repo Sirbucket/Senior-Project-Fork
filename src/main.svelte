@@ -31,7 +31,7 @@
     }
 </script>
 
-<section id="base" bind:this={base} class={color}>
+<section bind:this={base} class={color}>
     <div class="header">
     <Header on:pageChange={changePage} on:changeColor={changeColor} {iconColors}/>
     </div>

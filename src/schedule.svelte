@@ -107,6 +107,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0px;
+        margin-top: 20px;
         text-align: center;
     }
     .footer p {

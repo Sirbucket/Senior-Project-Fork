@@ -4,40 +4,46 @@
 
 <section class="background">
     <div class="main base">
-        <div class="cuban item">
-            <div class="cubanInfo info text">
-                <h2>Cuban Sandwich . . . $5</h2>
-                <p>Ham, provolone cheese, pickles, mayonnaise, and mustard between buttered and pressed sweet hawaiian bread
-                </p>
-            </div>
-            <div class="img accent">
-            <img src="images/cuban.jpg" alt="Cuban sandwich" class="cubanImg">
-            </div>
-        </div>
-        <div class="hamfig item">
-            <div class="hamfigInfo info text">
-                <h2>Ham & Fig Sandwich . . . $5</h2>
-                <p>Ham, provolone cheese, and fig jam between buttered and pressed sweet hawaiian bread
-                </p>
-            </div>
-            <div class="img accent">
-            <img src="images/ham.jpg" alt="Ham and fig sandwich" class="hamImg">
-            </div>
+        <div class="header text">
+            <h1>Sand-Wiches</h1>
         </div>
         <div class="grilled item">
             <div class="grilledInfo info text">
-                <h2>Grilled Cheese Sandwich . . . $5</h2>
-                <p>Provolone cheese between buttered and pressed sliced white bread
+                <h2>Enchantingly Good Grilled Cheese. . . $3.50</h2>
+                <p>Fresh pieces of mozzarella paired with provolone cheese melted in between white bread buttered & pressed in our high-grade panini press
                 </p>
             </div>
             <div class="img accent">
             <img src="images/grilled.jpg" alt="Grilled cheese" class="grilledImg">
             </div>
         </div>
+        <div class="sliders item">
+            <div class="cubanInfo info text">
+                <h2>Twin Cheesy Black Forest Sliders. . . $4.00</h2>
+                <p>Fresh black forest ham and melted provolone cheese in between soft hawaiian rolls, buttered & pressed in our high-grade panini press. . . and you get two of them!
+                </p>
+            </div>
+            <div class="img accent">
+            <img src="images/cuban.jpg" alt="Cuban sandwich" class="cubanImg">
+            </div>
+        </div>
+        <div class="cauldron item">
+            <div class="hamfigInfo info text">
+                <h2>Twin Cuban-Cauldron Sliders. . . $5.00</h2>
+                <p>A timeless classic including fresh forest ham and melted provolone cheese topped with slices of pickle, mayonnaise, and mustard in between soft Hawaiian rolls, buttered & pressed in our high-grade panini press. . . and you get two of them!
+                </p>
+            </div>
+            <div class="img accent">
+            <img src="images/cuban.jpg" alt="Ham and fig sandwich" class="hamImg">
+            </div>
+        </div>
+        <div class="header text">
+            <h1>Soups</h1>
+        </div>
         <div class="soup item">
             <div class="soupInfo info text">
-                <h2>Tomato Soup . . . $5</h2>
-                <p>Creamy tomato soup topped with a pinch of basil
+                <h2>Soup-er Delicious. . . $2.00</h2>
+                <p>Warm and creamy tomato soup. Highly recommend pairing with some yummy grilled cheese!
                 </p>
             </div>
             <div class="img accent">
@@ -82,11 +88,22 @@
     h2 {
         border-bottom: 2px solid;
         margin-right: auto;
+        margin-bottom: 10px;
         font-size: max(2vw, 12px);
+    }
+
+    .header {
+        font-size: max(2.4vw, 14.4px);
+        align-self: center;
+    }
+
+    .header h1 {
+        border-bottom: 2px solid;
     }
 
     p {
         font-size: max(1.5vw, 9px);
+        margin-top: 10px;
     }
 
     .img {
@@ -132,6 +149,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0px;
+        margin-top: 20px;
         text-align: center;
     }
     .footer p {

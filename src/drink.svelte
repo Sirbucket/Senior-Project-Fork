@@ -4,32 +4,44 @@
 
 <section class="background">
     <div class="main base">
-        <div class="choc item">
+        <div class="header text">
+            <h1>Potions, Drinks, and Special-Teas</h1>
+        </div>
+        <div class="milk item">
             <div class="chocInfo info text">
-                <h2>Hot Chocolate. . . $3</h2>
-                <p>Heated milk with chocolate powder.</p>
+                <h2>Cozy Milk. . . $2.50</h2>
+                <p>Warm milk paired with honey, brown sugar, and lavender</p>
             </div>
             <div class="img accent">
                 <img src="images/choc.jpg" alt="Hot chocolate" class="chocImg">
             </div>
         </div>
-        <div class="tea item">
+        <div class="green item">
+            <div class="warmInfo info text">
+                <h2>Green With Envy. . . $1.50</h2>
+                <p>A balanced mix of pear, lemon, and green tea to create a very fresh and calming taste
+                </p>
+            </div>
+            <div class="img accent">
+                <img src="images/coffee.jpg" alt="Warm coffee milk" class="warmImg">
+            </div>
+        </div>
+        <div class="purple item">
             <div class="teaInfo info text">
-                <h2>Hot Tea. . . $3</h2>
-                <p>Earl Gray, Black Irish Tea, Lavender Tea</p>
+                <h2>Purple People Eater. . . $1.50</h2>
+                <p>Lavender and rosehip blended to make a perfect playful potion</p>
             </div>
             <div class="img accent">
                 <img src="images/tea.jpg" alt="Hot tea" class="teaImg">
             </div>
         </div>
-        <div class="warm item">
-            <div class="warmInfo info text">
-                <h2>Warm Coffee Milk. . . $3</h2>
-                <p>A warm take on RI's official beverage, and a favorite amongst New England residents
-                </p>
+        <div class="tea item">
+            <div class="teaInfo info text">
+                <h2>Generic Teas. . . $1.00</h2>
+                <p>Plain Green Tea, Spiced Chai, Wild Raspberry Hibiscus, and Earl Gray</p>
             </div>
             <div class="img accent">
-                <img src="images/coffee.jpg" alt="Warm coffee milk" class="warmImg">
+                <img src="images/tea.jpg" alt="Hot tea" class="teaImg">
             </div>
         </div>
     </div>
@@ -71,6 +83,15 @@
         border-bottom: 2px solid;
         margin-right: auto;
         font-size: max(2vw, 12px);
+    }
+
+    .header {
+        font-size: max(2.4vw, 14.4px);
+        align-self: center;
+    }
+
+    .header h1 {
+        border-bottom: 2px solid;
     }
 
     p {
@@ -120,6 +141,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0px;
+        margin-top: 20px;
         text-align: center;
     }
     .footer p {
