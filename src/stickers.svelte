@@ -5,13 +5,13 @@
 <section class="background">
     <div class="main">
         <div class="stickers">
-            <img class="dark" src="images/stickerDark.png" alt="cool sticker">
             <img class="light" src="images/stickerLight.png" alt="cool sticker">
+            <img class="dark" src="images/stickerDark.png" alt="cool sticker">
             <img class="catgirl" src="images/stickerCatgirl.png" alt="cool sticker">
         </div>
-        <div class="link base">
-            <h2>You can buy these wonderful stickers and so much more at the link below!</h2>
-            <u class="pink" href="https://www.etsy.com/shop/NatWDesigns?ref=seller-platform-mcnav">Nat W's Etsy Shop</u>
+        <div class="link text base">
+            <h3>You can buy these wonderful stickers and so much more at the link below!</h3>
+            <a class="pink" href="https://www.etsy.com/shop/NatWDesigns?ref=seller-platform-mcnav" target="_blank"><b>Nat W's Etsy Shop</b></a>
         </div>
     </div>
     <div class="footer text base background">
@@ -28,6 +28,10 @@
         align-items: center;
     }
 
+    .text {
+        font-family: 'Comfortaa', cursive;
+    }
+
     .stickers {
         display: flex;
         justify-content: space-evenly;
@@ -36,8 +40,8 @@
     }
 
     img {
-        height: 300px;
-        width: 300px;
+        height: 25vw;
+        width: 25vw;
     }
 
     .link {
@@ -46,16 +50,22 @@
         flex-direction: column;
         justify-content: start;
         align-items: center;
+        text-align: center;
     }
 
-    .link h2 {
+    .link h3 {
         border-bottom: 2px solid;
         margin-bottom: 0px;
     }
 
     .pink {
-        color: #ff69b4;
-        margin-top: 4px;
+        margin-top: 10px;
+        text-decoration: none;
+        transition: .5s;
+    }
+
+    .pink:hover {
+        transform: scale(1.1, 1.1);
     }
 
 
@@ -68,6 +78,7 @@
         margin-bottom: 0px;
         margin-top: 20px;
         text-align: center;
+        font-size: 110%;
     }
     .footer p {
         margin-top: 1.35vh;

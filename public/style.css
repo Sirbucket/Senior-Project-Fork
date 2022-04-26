@@ -48,6 +48,10 @@ body {
   background-color: black;
 }
 
+.Classy .pink {
+  color: #ff69b4;
+}
+
 
 .Cozy {
   background-color: #ead1dc;
@@ -83,6 +87,10 @@ body {
   background-color: #ead1dc;
 }
 
+.Cozy .pink {
+  color: #B98868;
+}
+
 
 .Cool {
   background-color: #063970;
@@ -112,10 +120,15 @@ body {
 
 .Cool .bar1, .Cool .bar2, .Cool .bar3 {
   background-color: silver;
+                    /*c0c0c0*/
 }
 
 .Cool .change .bar1, .Cool .change .bar3 {
   background-color: #063970;
+}
+
+.Cool .pink {
+  color: #6374A0;
 }
 
 
@@ -151,4 +164,8 @@ body {
 
 .Carefree .change .bar1, .Carefree .change .bar3 {
   background-color: #368a3a;
+}
+
+.Carefree .pink {
+  color: #97AC69;
 }
