@@ -103,6 +103,18 @@
         <img src='images/scheduleIconClassy.png' alt="Schedule">
         {/if}
     </div>
+    <div class="stickers hidden" on:click={pageChange}>
+        <p>Merch</p>
+        {#if (iconColors == 'Cozy')}
+        <img src='images/stickersIconCozy.png' alt="Stickers">
+        {:else if (iconColors == 'Cool')}
+        <img src='images/stickersIconCool.png' alt="Stickers">
+        {:else if (iconColors == 'Carefree')}
+        <img src='images/stickersIconCarefree.png' alt="Stickers">
+        {:else}
+        <img src='images/stickersIconClassy.png' alt="Stickers">
+        {/if}
+    </div>
   </div>
   <section class="ignore visible opened change">
       <div class="bar1 bar2 bar3 stuff"></div>
@@ -203,7 +215,7 @@ section.opened {
 .opened .stuff {
     display: block;
     overflow: hidden;
-    height: max(24.7vw, 210px);
+    height: max(28.7vw, 245px);
 }
 
 p {

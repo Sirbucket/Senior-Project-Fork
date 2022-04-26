@@ -28,13 +28,13 @@
             </div>
         </div>
         <div class="cauldron item">
-            <div class="hamfigInfo info text">
+            <div class="cubanCauldronInfo info text">
                 <h2>Twin Cuban-Cauldron Sliders. . . $5.00</h2>
                 <p>A timeless classic including fresh forest ham and melted provolone cheese topped with slices of pickle, mayonnaise, and mustard in between soft Hawaiian rolls, buttered & pressed in our high-grade panini press. . . and you get two of them!
                 </p>
             </div>
             <div class="img accent">
-            <img src="images/cuban.jpg" alt="Ham and fig sandwich" class="hamImg">
+            <img src="images/cuban.jpg" alt="Twin sliders" class="slidersImg">
             </div>
         </div>
         <div class="header text">

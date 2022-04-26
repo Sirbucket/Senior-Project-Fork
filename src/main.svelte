@@ -5,6 +5,7 @@
     import Drink from './drink.svelte'
     import Contact from './contact.svelte'
     import Schedule from './schedule.svelte'
+    import Stickers from './stickers.svelte'
 
     function changePage(event) {
         let old = document.querySelector('.active')
@@ -50,6 +51,9 @@
     </div>
     <div id="schedule" class="inactive">
     <Schedule/>
+    </div>
+    <div id="stickers" class="inactive">
+    <Stickers/>
     </div>
     </div>
 </section>
