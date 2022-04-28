@@ -10,7 +10,7 @@
             <p>Tyngsboro, Massachusetts</p>
             <p>Look for the sign!</p>
         </div>
-        <div class="image">
+        <div class="image accent">
         <img src="images/logo.png" alt="Cool logo :)">
         </div>
         <div class="right text base">
@@ -66,7 +66,6 @@
     .image {
         width: max(20.83vw, 208.3px);
         height: max(23.33vw, 233.33px);
-        background-color: white;
     }
 
     img {
