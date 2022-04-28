@@ -592,7 +592,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/homeIconClassy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Home");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 42, 8, 1294);
     		},
     		m: function mount(target, anchor) {
@@ -624,7 +624,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/homeIconCarefree.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Home");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 40, 8, 1217);
     		},
     		m: function mount(target, anchor) {
@@ -656,7 +656,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/homeIconCool.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Home");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 38, 8, 1114);
     		},
     		m: function mount(target, anchor) {
@@ -688,7 +688,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/homeIconCozy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Home");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 36, 8, 1015);
     		},
     		m: function mount(target, anchor) {
@@ -722,7 +722,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/menuIconClassy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Menu");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 54, 8, 1848);
     		},
     		m: function mount(target, anchor) {
@@ -764,7 +764,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/menuIconCarefree.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Menu");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 52, 8, 1751);
     		},
     		m: function mount(target, anchor) {
@@ -806,7 +806,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/menuIconCool.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Menu");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 50, 8, 1628);
     		},
     		m: function mount(target, anchor) {
@@ -848,7 +848,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/menuIconCozy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Menu");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 48, 8, 1509);
     		},
     		m: function mount(target, anchor) {
@@ -888,7 +888,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/foodIconClassy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Food");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 65, 12, 2378);
     		},
     		m: function mount(target, anchor) {
@@ -920,7 +920,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/foodIconCarefree.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Food");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 63, 12, 2293);
     		},
     		m: function mount(target, anchor) {
@@ -952,7 +952,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/foodIconCool.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Food");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 61, 12, 2182);
     		},
     		m: function mount(target, anchor) {
@@ -984,7 +984,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/foodIconCozy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Food");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 59, 12, 2075);
     		},
     		m: function mount(target, anchor) {
@@ -1016,7 +1016,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/drinkIconClassy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Drink");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 77, 12, 2918);
     		},
     		m: function mount(target, anchor) {
@@ -1048,7 +1048,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/drinkIconCarefree.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Drink");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 75, 12, 2831);
     		},
     		m: function mount(target, anchor) {
@@ -1080,7 +1080,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/drinkIconCool.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Drink");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 73, 12, 2718);
     		},
     		m: function mount(target, anchor) {
@@ -1112,7 +1112,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/drinkIconCozy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Drink");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 71, 12, 2609);
     		},
     		m: function mount(target, anchor) {
@@ -1144,7 +1144,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/contactIconClassy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Contact");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 90, 8, 3446);
     		},
     		m: function mount(target, anchor) {
@@ -1176,7 +1176,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/contactIconCarefree.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Contact");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 88, 8, 3363);
     		},
     		m: function mount(target, anchor) {
@@ -1208,7 +1208,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/contactIconCool.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Contact");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 86, 8, 3254);
     		},
     		m: function mount(target, anchor) {
@@ -1240,7 +1240,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/contactIconCozy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Contact");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 84, 8, 3149);
     		},
     		m: function mount(target, anchor) {
@@ -1272,7 +1272,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/scheduleIconClassy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Schedule");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 102, 8, 3960);
     		},
     		m: function mount(target, anchor) {
@@ -1304,7 +1304,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/scheduleIconCarefree.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Schedule");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 100, 8, 3875);
     		},
     		m: function mount(target, anchor) {
@@ -1336,7 +1336,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/scheduleIconCool.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Schedule");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 98, 8, 3764);
     		},
     		m: function mount(target, anchor) {
@@ -1368,7 +1368,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "images/scheduleIconCozy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Schedule");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 96, 8, 3657);
     		},
     		m: function mount(target, anchor) {
@@ -1398,10 +1398,10 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			img = element("img");
-    			if (!src_url_equal(img.src, img_src_value = "images/stickersIconClassy.png")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "images/shirtIconClassy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Stickers");
-    			attr_dev(img, "class", "svelte-13j61rq");
-    			add_location(img, file$8, 114, 8, 4473);
+    			attr_dev(img, "class", "svelte-6tjt2a");
+    			add_location(img, file$8, 114, 8, 4464);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -1430,10 +1430,10 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			img = element("img");
-    			if (!src_url_equal(img.src, img_src_value = "images/stickersIconCarefree.png")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "images/shirtIconCarefree.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Stickers");
-    			attr_dev(img, "class", "svelte-13j61rq");
-    			add_location(img, file$8, 112, 8, 4388);
+    			attr_dev(img, "class", "svelte-6tjt2a");
+    			add_location(img, file$8, 112, 8, 4382);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -1462,10 +1462,10 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			img = element("img");
-    			if (!src_url_equal(img.src, img_src_value = "images/stickersIconCool.png")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "images/shirtIconCool.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Stickers");
-    			attr_dev(img, "class", "svelte-13j61rq");
-    			add_location(img, file$8, 110, 8, 4277);
+    			attr_dev(img, "class", "svelte-6tjt2a");
+    			add_location(img, file$8, 110, 8, 4274);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -1494,9 +1494,9 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			img = element("img");
-    			if (!src_url_equal(img.src, img_src_value = "images/stickersIconCozy.png")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "images/shirtIconCozy.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Stickers");
-    			attr_dev(img, "class", "svelte-13j61rq");
+    			attr_dev(img, "class", "svelte-6tjt2a");
     			add_location(img, file$8, 108, 8, 4170);
     		},
     		m: function mount(target, anchor) {
@@ -1691,55 +1691,55 @@ var app = (function () {
     			t24 = space();
     			section0 = element("section");
     			div12 = element("div");
-    			attr_dev(div0, "class", "bar1 svelte-13j61rq");
+    			attr_dev(div0, "class", "bar1 svelte-6tjt2a");
     			add_location(div0, file$8, 28, 6, 760);
-    			attr_dev(div1, "class", "bar2 svelte-13j61rq");
+    			attr_dev(div1, "class", "bar2 svelte-6tjt2a");
     			add_location(div1, file$8, 29, 6, 792);
-    			attr_dev(div2, "class", "bar3 svelte-13j61rq");
+    			attr_dev(div2, "class", "bar3 svelte-6tjt2a");
     			add_location(div2, file$8, 30, 6, 824);
     			attr_dev(div3, "id", "dropdown");
-    			attr_dev(div3, "class", "dropdown svelte-13j61rq");
+    			attr_dev(div3, "class", "dropdown svelte-6tjt2a");
     			add_location(div3, file$8, 27, 2, 695);
-    			attr_dev(p0, "class", "svelte-13j61rq");
+    			attr_dev(p0, "class", "svelte-6tjt2a");
     			add_location(p0, file$8, 34, 8, 956);
-    			attr_dev(div4, "class", "home hidden svelte-13j61rq");
+    			attr_dev(div4, "class", "home hidden svelte-6tjt2a");
     			add_location(div4, file$8, 33, 4, 899);
-    			attr_dev(p1, "class", "svelte-13j61rq");
+    			attr_dev(p1, "class", "svelte-6tjt2a");
     			add_location(p1, file$8, 46, 8, 1430);
-    			attr_dev(p2, "class", "svelte-13j61rq");
+    			attr_dev(p2, "class", "svelte-6tjt2a");
     			add_location(p2, file$8, 57, 12, 2008);
     			attr_dev(div5, "id", "navFood");
-    			attr_dev(div5, "class", "food svelte-13j61rq");
+    			attr_dev(div5, "class", "food svelte-6tjt2a");
     			add_location(div5, file$8, 56, 8, 1941);
-    			attr_dev(p3, "class", "svelte-13j61rq");
+    			attr_dev(p3, "class", "svelte-6tjt2a");
     			add_location(p3, file$8, 69, 12, 2540);
     			attr_dev(div6, "id", "navDrink");
-    			attr_dev(div6, "class", "drink svelte-13j61rq");
+    			attr_dev(div6, "class", "drink svelte-6tjt2a");
     			add_location(div6, file$8, 68, 8, 2471);
     			attr_dev(div7, "id", "navMenu");
-    			attr_dev(div7, "class", "menu hidden closed svelte-13j61rq");
+    			attr_dev(div7, "class", "menu hidden closed svelte-6tjt2a");
     			add_location(div7, file$8, 45, 4, 1375);
     			add_location(br, file$8, 82, 18, 3091);
-    			attr_dev(p4, "class", "svelte-13j61rq");
+    			attr_dev(p4, "class", "svelte-6tjt2a");
     			add_location(p4, file$8, 82, 8, 3081);
-    			attr_dev(div8, "class", "contact hidden svelte-13j61rq");
+    			attr_dev(div8, "class", "contact hidden svelte-6tjt2a");
     			add_location(div8, file$8, 81, 4, 3021);
-    			attr_dev(p5, "class", "svelte-13j61rq");
+    			attr_dev(p5, "class", "svelte-6tjt2a");
     			add_location(p5, file$8, 94, 8, 3594);
-    			attr_dev(div9, "class", "schedule hidden svelte-13j61rq");
+    			attr_dev(div9, "class", "schedule hidden svelte-6tjt2a");
     			add_location(div9, file$8, 93, 4, 3533);
-    			attr_dev(p6, "class", "svelte-13j61rq");
+    			attr_dev(p6, "class", "svelte-6tjt2a");
     			add_location(p6, file$8, 106, 8, 4110);
-    			attr_dev(div10, "class", "stickers hidden svelte-13j61rq");
+    			attr_dev(div10, "class", "stickers hidden svelte-6tjt2a");
     			add_location(div10, file$8, 105, 4, 4049);
-    			attr_dev(div11, "class", "stuff accent text svelte-13j61rq");
+    			attr_dev(div11, "class", "stuff accent text svelte-6tjt2a");
     			add_location(div11, file$8, 32, 2, 862);
-    			attr_dev(div12, "class", "bar1 bar2 bar3 stuff svelte-13j61rq");
-    			add_location(div12, file$8, 119, 6, 4624);
-    			attr_dev(section0, "class", "ignore visible opened change svelte-13j61rq");
-    			add_location(section0, file$8, 118, 2, 4570);
+    			attr_dev(div12, "class", "bar1 bar2 bar3 stuff svelte-6tjt2a");
+    			add_location(div12, file$8, 119, 6, 4612);
+    			attr_dev(section0, "class", "ignore visible opened change svelte-6tjt2a");
+    			add_location(section0, file$8, 118, 2, 4558);
     			attr_dev(section1, "id", "test");
-    			attr_dev(section1, "class", "svelte-13j61rq");
+    			attr_dev(section1, "class", "svelte-6tjt2a");
     			add_location(section1, file$8, 26, 0, 672);
     		},
     		l: function claim(nodes) {

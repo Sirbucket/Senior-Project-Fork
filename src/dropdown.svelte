@@ -106,13 +106,13 @@
     <div class="stickers hidden" on:click={pageChange}>
         <p>Merch</p>
         {#if (iconColors == 'Cozy')}
-        <img src='images/stickersIconCozy.png' alt="Stickers">
+        <img src='images/shirtIconCozy.png' alt="Stickers">
         {:else if (iconColors == 'Cool')}
-        <img src='images/stickersIconCool.png' alt="Stickers">
+        <img src='images/shirtIconCool.png' alt="Stickers">
         {:else if (iconColors == 'Carefree')}
-        <img src='images/stickersIconCarefree.png' alt="Stickers">
+        <img src='images/shirtIconCarefree.png' alt="Stickers">
         {:else}
-        <img src='images/stickersIconClassy.png' alt="Stickers">
+        <img src='images/shirtIconClassy.png' alt="Stickers">
         {/if}
     </div>
   </div>
@@ -278,7 +278,7 @@ p {
 }
 
 @media screen and (max-width: 675px) {
-  .home, .contact, .schedule {
+  .home, .contact, .schedule, .stickers {
     width: 23px;
     height: 23px;
     margin-right: auto;
@@ -299,10 +299,10 @@ p {
   .closed {
       height: 23px;
   }
-  .home p, .contact p, .schedule p, .menu p {
+  .home p, .contact p, .schedule p, .menu p, .stickers p {
     display: none;
   }
-  .home img, .contact img, .schedule img, .menu img {
+  .home img, .contact img, .schedule img, .menu img, .stickers img {
     display: block;
     height: 20px;
     width: 20px;
@@ -310,7 +310,7 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-  .home img:hover, .contact img:hover, .schedule img:hover, .menu img:hover {
+  .home img:hover, .contact img:hover, .schedule img:hover, .menu img:hover, .stickers img:hover {
       transform: scale(1.1, 1.1)
   }
   .food img, .drink img {
