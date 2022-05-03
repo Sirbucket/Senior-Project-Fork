@@ -65,6 +65,7 @@
         .box {
             height: 10vw;
             width: 80vw;
+            text-align: center;
         }
     }
 </style>

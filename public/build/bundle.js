@@ -2025,11 +2025,11 @@ var app = (function () {
     			h1.textContent = "Kat's Contemporary Cafe";
     			t2 = space();
     			create_component(colors.$$.fragment);
-    			attr_dev(h1, "class", "svelte-1kd2qc");
+    			attr_dev(h1, "class", "svelte-1c94wj9");
     			add_location(h1, file$7, 28, 8, 705);
-    			attr_dev(div, "class", "box text base svelte-1kd2qc");
+    			attr_dev(div, "class", "box text base svelte-1c94wj9");
     			add_location(div, file$7, 27, 4, 668);
-    			attr_dev(main, "class", "background svelte-1kd2qc");
+    			attr_dev(main, "class", "background svelte-1c94wj9");
     			add_location(main, file$7, 25, 0, 580);
     		},
     		l: function claim(nodes) {
